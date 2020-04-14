@@ -4997,12 +4997,14 @@ Array [
       Object {
         "index": "25",
         "line": "NS",
+        "nextLine": "EW",
         "station": "City Hall",
         "type": "interchange1",
       },
       Object {
         "index": "13",
         "line": "EW",
+        "prevLine": "NS",
         "station": "City Hall",
         "type": "interchange2",
       },
@@ -5081,12 +5083,14 @@ Array [
       Object {
         "index": "17",
         "line": "NS",
+        "nextLine": "CE",
         "station": "Bishan",
         "type": "interchange1",
       },
       Object {
         "index": "15",
         "line": "CE",
+        "prevLine": "NS",
         "station": "Bishan",
         "type": "interchange2",
       },
@@ -5123,12 +5127,14 @@ Array [
       Object {
         "index": "9",
         "line": "CE",
+        "nextLine": "EW",
         "station": "Paya Lebar",
         "type": "interchange1",
       },
       Object {
         "index": "8",
         "line": "EW",
+        "prevLine": "CE",
         "station": "Paya Lebar",
         "type": "interchange2",
       },
@@ -5243,12 +5249,14 @@ Array [
       Object {
         "index": "26",
         "line": "NS",
+        "nextLine": "EW",
         "station": "Raffles Place",
         "type": "interchange1",
       },
       Object {
         "index": "14",
         "line": "EW",
+        "prevLine": "NS",
         "station": "Raffles Place",
         "type": "interchange2",
       },
@@ -5339,12 +5347,14 @@ Array [
       Object {
         "index": "1",
         "line": "NS",
+        "nextLine": "EW",
         "station": "Jurong East",
         "type": "interchange1",
       },
       Object {
         "index": "24",
         "line": "EW",
+        "prevLine": "NS",
         "station": "Jurong East",
         "type": "interchange2",
       },

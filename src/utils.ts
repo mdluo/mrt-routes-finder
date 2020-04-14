@@ -28,13 +28,6 @@ export function sortString(a: string, b: string) {
   return 0;
 }
 
-export interface PathNode {
-  station: string;
-  line: string;
-  index: string;
-  type: 'start' | 'end' | 'interchange1' | 'interchange2' | 'normal';
-}
-
 export function processPath(path: string[]): PathNode[] {
   const nodes = path.map((p) => {
     const [station, line, index] = p.split(' | ');
@@ -49,11 +42,11 @@ export function processPath(path: string[]): PathNode[] {
     }
     const next = nodes[i + 1];
     if (next && next.station === node.station) {
-      return { ...node, type: 'interchange1' };
+      return { ...node, type: 'interchange1', nextLine: next.line };
     }
     const prev = nodes[i - 1];
     if (prev && prev.station === node.station) {
-      return { ...node, type: 'interchange2' };
+      return { ...node, type: 'interchange2', prevLine: prev.line };
     }
     return { ...node, type: 'normal' };
   });

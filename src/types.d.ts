@@ -37,6 +37,8 @@ declare interface PathNode {
   line: string;
   index: string;
   type: 'start' | 'end' | 'interchange1' | 'interchange2' | 'normal';
+  nextLine?: string;
+  prevLine?: string;
 }
 
 declare type Coord = [number, number];

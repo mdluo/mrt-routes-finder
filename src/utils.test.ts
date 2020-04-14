@@ -51,8 +51,20 @@ describe('processPath', () => {
     const path = ['A | TS | 1', 'B | TS | 2', 'B | TC | 1', 'C | TC | 2'];
     expect(processPath(path)).toEqual([
       { type: 'start', station: 'A', line: 'TS', index: '1' },
-      { type: 'interchange1', station: 'B', line: 'TS', index: '2' },
-      { type: 'interchange2', station: 'B', line: 'TC', index: '1' },
+      {
+        type: 'interchange1',
+        station: 'B',
+        line: 'TS',
+        index: '2',
+        nextLine: 'TC',
+      },
+      {
+        type: 'interchange2',
+        station: 'B',
+        line: 'TC',
+        index: '1',
+        prevLine: 'TS',
+      },
       { type: 'end', station: 'C', line: 'TC', index: '2' },
     ]);
   });
