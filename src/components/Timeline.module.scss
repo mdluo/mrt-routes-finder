@@ -1,0 +1,104 @@
+$line-colors: (
+  EW: #009530,
+  CG: #009530,
+  NS: #dc241f,
+  NE: #9016b2,
+  CC: #ff9a00,
+  CE: #ff9a00,
+  DT: #0354a6,
+  TE: #734538,
+  XX: #748477,
+);
+
+ul.timeline {
+  margin: 0.5rem 0 0;
+  padding: 0 0 0 0.2rem;
+  list-style: none;
+
+  li {
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+    position: relative;
+
+    & > p {
+      margin: 0;
+      padding: 0;
+      color: #5C7080;
+    }
+
+    // Vertical line
+    &::before {
+      content: ' ';
+      width: 6px;
+      height: 1.5rem;
+      display: block;
+      position: absolute;
+      top: 0.9rem;
+      left: 0;
+    }
+
+    // Circle
+    &::after {
+      content: ' ';
+      padding: 4px;
+      background-color: white;
+      border-radius: 50%;
+      border: 2px solid #202B33;
+      position: absolute;
+      left: -3px;
+      top: 6px;
+    }
+
+    @each $code, $color in $line-colors {
+      &.#{$code} {
+        &::before {
+          background-color: $color;
+        }
+        &::after {
+          border-color: $color;
+        }
+      }
+    }
+  }
+
+  li.start, li.end, li.interchange1, li.interchange2 {
+    padding: 0.4rem 1rem;
+
+    p:global(.title) {
+      color: #202B33;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    p:global(.desc) {
+      padding-top: 0.3rem;
+      color: #202B33;
+    }
+
+    &::after {
+      padding: 5px;
+      border-color: #202B33;
+      left: -4px;
+      top: 7px;
+    }
+  }
+
+  li.interchange1::before {
+    height: 3.2rem;
+    margin-top: -1px;
+    background-color: transparent;
+    background-image: url('https://maps.gstatic.com/tactile/sidepanel/leg-bullet-2x.png');
+    background-repeat: repeat-y;
+    background-size: 6px 12px;
+  }
+
+  li.start, li.interchange2 {
+    &::before {
+      height: 3.5rem;
+    }
+  }
+
+  li.end::before {
+    display: none;
+  }
+}

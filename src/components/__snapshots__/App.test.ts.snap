@@ -1,0 +1,5444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useGraph works: edges 1`] = `
+Array [
+  "Admiralty",
+  "Aljunied",
+  "Ang Mo Kio",
+  "Bahar Junction",
+  "Bakau",
+  "Bangkit",
+  "Bartley",
+  "Bayfront",
+  "Bayshore",
+  "Beauty World",
+  "Bedok",
+  "Bedok North",
+  "Bedok Reservoir",
+  "Bedok South",
+  "Bencoolen",
+  "Bendemeer",
+  "Bishan",
+  "Boon Keng",
+  "Boon Lay",
+  "Botanic Gardens",
+  "Braddell",
+  "Bras Basah",
+  "Bright Hill",
+  "Buangkok",
+  "Bugis",
+  "Bukit Batok",
+  "Bukit Batok West",
+  "Bukit Gombak",
+  "Bukit Panjang",
+  "Buona Vista",
+  "Caldecott",
+  "Canberra",
+  "Cantonment",
+  "Cashew",
+  "Changi Airport",
+  "Cheng Lim",
+  "Chinatown",
+  "Chinese Garden",
+  "Choa Chu Kang",
+  "Choa Chu Kang West",
+  "City Hall",
+  "Clarke Quay",
+  "Clementi",
+  "Commonwealth",
+  "Compassvale",
+  "Coral Edge",
+  "Corporation",
+  "Cove",
+  "Dakota",
+  "Damai",
+  "Dhoby Ghaut",
+  "Dover",
+  "Downtown",
+  "Enterprise",
+  "Esplanade",
+  "Eunos",
+  "Expo",
+  "Fajar",
+  "Farmway",
+  "Farrer Park",
+  "Farrer Road",
+  "Fernvale",
+  "Fort Canning",
+  "Gardens by the Bay",
+  "Gek Poh",
+  "Geylang Bahru",
+  "Great World",
+  "Gul Circle",
+  "HarbourFront",
+  "Havelock",
+  "Haw Par Villa",
+  "Hillview",
+  "Holland Village",
+  "Hong Kah",
+  "Hougang",
+  "Jalan Besar",
+  "Jelapang",
+  "Joo Koon",
+  "Jurong East",
+  "Jurong Hill",
+  "Jurong Pier",
+  "Jurong Town Hall",
+  "Jurong West",
+  "Kadaloor",
+  "Kaki Bukit",
+  "Kallang",
+  "Kangkar",
+  "Katong Park",
+  "Keat Hong",
+  "Kembangan",
+  "Kent Ridge",
+  "Keppel",
+  "Khatib",
+  "King Albert Park",
+  "Kovan",
+  "Kranji",
+  "Kupang",
+  "Labrador Park",
+  "Lakeside",
+  "Lavender",
+  "Layar",
+  "Lentor",
+  "Little India",
+  "Lorong Chuan",
+  "MacPherson",
+  "Marina Bay",
+  "Marina South",
+  "Marina South Pier",
+  "Marine Parade",
+  "Marine Terrace",
+  "Marsiling",
+  "Marymount",
+  "Mattar",
+  "Maxwell",
+  "Mayflower",
+  "Meridian",
+  "Mount Pleasant",
+  "Mountbatten",
+  "Nanyang Crescent",
+  "Nanyang Gateway",
+  "Napier",
+  "Newton",
+  "Nibong",
+  "Nicoll Highway",
+  "Novena",
+  "Oasis",
+  "one-north",
+  "Orchard",
+  "Orchard Boulevard",
+  "Outram Park",
+  "Pandan Reservoir",
+  "Pasir Panjang",
+  "Pasir Ris",
+  "Paya Lebar",
+  "Pending",
+  "Peng Kang Hill",
+  "Petir",
+  "Phoenix",
+  "Pioneer",
+  "Potong Pasir",
+  "Prince Edward Road",
+  "Promenade",
+  "Punggol",
+  "Punggol Coast",
+  "Punggol Point",
+  "Queenstown",
+  "Raffles Place",
+  "Ranggung",
+  "Redhill",
+  "Renjong",
+  "Riviera",
+  "Rochor",
+  "Rumbia",
+  "Sam Kee",
+  "Samudera",
+  "Segar",
+  "Sembawang",
+  "Sengkang",
+  "Senja",
+  "Serangoon",
+  "Shenton Way",
+  "Siglap",
+  "Simei",
+  "Sixth Avenue",
+  "Somerset",
+  "Soo Teck",
+  "South View",
+  "Springleaf",
+  "Stadium",
+  "Stevens",
+  "Sumang",
+  "Sungei Bedok",
+  "Tai Seng",
+  "Tampines",
+  "Tampines East",
+  "Tampines West",
+  "Tan Kah Kee",
+  "Tanah Merah",
+  "Tanjong Katong",
+  "Tanjong Pagar",
+  "Tanjong Rhu",
+  "Tawas",
+  "Teck Lee",
+  "Teck Whye",
+  "Telok Ayer",
+  "Telok Blangah",
+  "Tengah",
+  "Tengah Park",
+  "Tengah Plantation",
+  "Thanggam",
+  "Tiong Bahru",
+  "Toa Payoh",
+  "Toh Guan",
+  "Tongkang",
+  "Tuas Crescent",
+  "Tuas Link",
+  "Tuas West Road",
+  "Tukang",
+  "Ubi",
+  "Upper Changi",
+  "Upper Thomson",
+  "Woodlands",
+  "Woodlands North",
+  "Woodlands South",
+  "Woodleigh",
+  "Xilin",
+  "Yew Tee",
+  "Yio Chu Kang",
+  "Yishun",
+]
+`;
+
+exports[`useGraph works: graph.edges 1`] = `
+Array [
+  Object {
+    "v": "Jurong East | NS | 1",
+    "value": 2,
+    "w": "Bukit Batok | NS | 2",
+  },
+  Object {
+    "v": "Bukit Batok | NS | 2",
+    "value": 2,
+    "w": "Jurong East | NS | 1",
+  },
+  Object {
+    "v": "Bukit Batok | NS | 2",
+    "value": 2,
+    "w": "Bukit Gombak | NS | 3",
+  },
+  Object {
+    "v": "Bukit Gombak | NS | 3",
+    "value": 2,
+    "w": "Bukit Batok | NS | 2",
+  },
+  Object {
+    "v": "Bukit Gombak | NS | 3",
+    "value": 2,
+    "w": "Choa Chu Kang | NS | 4",
+  },
+  Object {
+    "v": "Choa Chu Kang | NS | 4",
+    "value": 2,
+    "w": "Bukit Gombak | NS | 3",
+  },
+  Object {
+    "v": "Choa Chu Kang | NS | 4",
+    "value": 2,
+    "w": "Yew Tee | NS | 5",
+  },
+  Object {
+    "v": "Yew Tee | NS | 5",
+    "value": 2,
+    "w": "Choa Chu Kang | NS | 4",
+  },
+  Object {
+    "v": "Yew Tee | NS | 5",
+    "value": 2,
+    "w": "Kranji | NS | 7",
+  },
+  Object {
+    "v": "Kranji | NS | 7",
+    "value": 2,
+    "w": "Yew Tee | NS | 5",
+  },
+  Object {
+    "v": "Kranji | NS | 7",
+    "value": 2,
+    "w": "Marsiling | NS | 8",
+  },
+  Object {
+    "v": "Marsiling | NS | 8",
+    "value": 2,
+    "w": "Kranji | NS | 7",
+  },
+  Object {
+    "v": "Marsiling | NS | 8",
+    "value": 2,
+    "w": "Woodlands | NS | 9",
+  },
+  Object {
+    "v": "Woodlands | NS | 9",
+    "value": 2,
+    "w": "Marsiling | NS | 8",
+  },
+  Object {
+    "v": "Woodlands | NS | 9",
+    "value": 2,
+    "w": "Admiralty | NS | 10",
+  },
+  Object {
+    "v": "Admiralty | NS | 10",
+    "value": 2,
+    "w": "Woodlands | NS | 9",
+  },
+  Object {
+    "v": "Admiralty | NS | 10",
+    "value": 2,
+    "w": "Sembawang | NS | 11",
+  },
+  Object {
+    "v": "Sembawang | NS | 11",
+    "value": 2,
+    "w": "Admiralty | NS | 10",
+  },
+  Object {
+    "v": "Sembawang | NS | 11",
+    "value": 2,
+    "w": "Canberra | NS | 12",
+  },
+  Object {
+    "v": "Canberra | NS | 12",
+    "value": 2,
+    "w": "Sembawang | NS | 11",
+  },
+  Object {
+    "v": "Canberra | NS | 12",
+    "value": 2,
+    "w": "Yishun | NS | 13",
+  },
+  Object {
+    "v": "Yishun | NS | 13",
+    "value": 2,
+    "w": "Canberra | NS | 12",
+  },
+  Object {
+    "v": "Yishun | NS | 13",
+    "value": 2,
+    "w": "Khatib | NS | 14",
+  },
+  Object {
+    "v": "Khatib | NS | 14",
+    "value": 2,
+    "w": "Yishun | NS | 13",
+  },
+  Object {
+    "v": "Khatib | NS | 14",
+    "value": 2,
+    "w": "Yio Chu Kang | NS | 15",
+  },
+  Object {
+    "v": "Yio Chu Kang | NS | 15",
+    "value": 2,
+    "w": "Khatib | NS | 14",
+  },
+  Object {
+    "v": "Yio Chu Kang | NS | 15",
+    "value": 2,
+    "w": "Ang Mo Kio | NS | 16",
+  },
+  Object {
+    "v": "Ang Mo Kio | NS | 16",
+    "value": 2,
+    "w": "Yio Chu Kang | NS | 15",
+  },
+  Object {
+    "v": "Ang Mo Kio | NS | 16",
+    "value": 2,
+    "w": "Bishan | NS | 17",
+  },
+  Object {
+    "v": "Bishan | NS | 17",
+    "value": 2,
+    "w": "Ang Mo Kio | NS | 16",
+  },
+  Object {
+    "v": "Bishan | NS | 17",
+    "value": 2,
+    "w": "Braddell | NS | 18",
+  },
+  Object {
+    "v": "Braddell | NS | 18",
+    "value": 2,
+    "w": "Bishan | NS | 17",
+  },
+  Object {
+    "v": "Braddell | NS | 18",
+    "value": 2,
+    "w": "Toa Payoh | NS | 19",
+  },
+  Object {
+    "v": "Toa Payoh | NS | 19",
+    "value": 2,
+    "w": "Braddell | NS | 18",
+  },
+  Object {
+    "v": "Toa Payoh | NS | 19",
+    "value": 2,
+    "w": "Novena | NS | 20",
+  },
+  Object {
+    "v": "Novena | NS | 20",
+    "value": 2,
+    "w": "Toa Payoh | NS | 19",
+  },
+  Object {
+    "v": "Novena | NS | 20",
+    "value": 2,
+    "w": "Newton | NS | 21",
+  },
+  Object {
+    "v": "Newton | NS | 21",
+    "value": 2,
+    "w": "Novena | NS | 20",
+  },
+  Object {
+    "v": "Newton | NS | 21",
+    "value": 2,
+    "w": "Orchard | NS | 22",
+  },
+  Object {
+    "v": "Orchard | NS | 22",
+    "value": 2,
+    "w": "Newton | NS | 21",
+  },
+  Object {
+    "v": "Orchard | NS | 22",
+    "value": 2,
+    "w": "Somerset | NS | 23",
+  },
+  Object {
+    "v": "Somerset | NS | 23",
+    "value": 2,
+    "w": "Orchard | NS | 22",
+  },
+  Object {
+    "v": "Somerset | NS | 23",
+    "value": 2,
+    "w": "Dhoby Ghaut | NS | 24",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NS | 24",
+    "value": 2,
+    "w": "Somerset | NS | 23",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NS | 24",
+    "value": 2,
+    "w": "City Hall | NS | 25",
+  },
+  Object {
+    "v": "City Hall | NS | 25",
+    "value": 2,
+    "w": "Dhoby Ghaut | NS | 24",
+  },
+  Object {
+    "v": "City Hall | NS | 25",
+    "value": 2,
+    "w": "Raffles Place | NS | 26",
+  },
+  Object {
+    "v": "Raffles Place | NS | 26",
+    "value": 2,
+    "w": "City Hall | NS | 25",
+  },
+  Object {
+    "v": "Raffles Place | NS | 26",
+    "value": 2,
+    "w": "Marina Bay | NS | 27",
+  },
+  Object {
+    "v": "Marina Bay | NS | 27",
+    "value": 2,
+    "w": "Raffles Place | NS | 26",
+  },
+  Object {
+    "v": "Marina Bay | NS | 27",
+    "value": 2,
+    "w": "Marina South Pier | NS | 28",
+  },
+  Object {
+    "v": "Marina South Pier | NS | 28",
+    "value": 2,
+    "w": "Marina Bay | NS | 27",
+  },
+  Object {
+    "v": "Pasir Ris | EW | 1",
+    "value": 2,
+    "w": "Tampines | EW | 2",
+  },
+  Object {
+    "v": "Tampines | EW | 2",
+    "value": 2,
+    "w": "Pasir Ris | EW | 1",
+  },
+  Object {
+    "v": "Tampines | EW | 2",
+    "value": 2,
+    "w": "Simei | EW | 3",
+  },
+  Object {
+    "v": "Simei | EW | 3",
+    "value": 2,
+    "w": "Tampines | EW | 2",
+  },
+  Object {
+    "v": "Simei | EW | 3",
+    "value": 2,
+    "w": "Tanah Merah | EW | 4",
+  },
+  Object {
+    "v": "Tanah Merah | EW | 4",
+    "value": 2,
+    "w": "Simei | EW | 3",
+  },
+  Object {
+    "v": "Tanah Merah | EW | 4",
+    "value": 2,
+    "w": "Bedok | EW | 5",
+  },
+  Object {
+    "v": "Bedok | EW | 5",
+    "value": 2,
+    "w": "Tanah Merah | EW | 4",
+  },
+  Object {
+    "v": "Bedok | EW | 5",
+    "value": 2,
+    "w": "Kembangan | EW | 6",
+  },
+  Object {
+    "v": "Kembangan | EW | 6",
+    "value": 2,
+    "w": "Bedok | EW | 5",
+  },
+  Object {
+    "v": "Kembangan | EW | 6",
+    "value": 2,
+    "w": "Eunos | EW | 7",
+  },
+  Object {
+    "v": "Eunos | EW | 7",
+    "value": 2,
+    "w": "Kembangan | EW | 6",
+  },
+  Object {
+    "v": "Eunos | EW | 7",
+    "value": 2,
+    "w": "Paya Lebar | EW | 8",
+  },
+  Object {
+    "v": "Paya Lebar | EW | 8",
+    "value": 2,
+    "w": "Eunos | EW | 7",
+  },
+  Object {
+    "v": "Paya Lebar | EW | 8",
+    "value": 2,
+    "w": "Aljunied | EW | 9",
+  },
+  Object {
+    "v": "Aljunied | EW | 9",
+    "value": 2,
+    "w": "Paya Lebar | EW | 8",
+  },
+  Object {
+    "v": "Aljunied | EW | 9",
+    "value": 2,
+    "w": "Kallang | EW | 10",
+  },
+  Object {
+    "v": "Kallang | EW | 10",
+    "value": 2,
+    "w": "Aljunied | EW | 9",
+  },
+  Object {
+    "v": "Kallang | EW | 10",
+    "value": 2,
+    "w": "Lavender | EW | 11",
+  },
+  Object {
+    "v": "Lavender | EW | 11",
+    "value": 2,
+    "w": "Kallang | EW | 10",
+  },
+  Object {
+    "v": "Lavender | EW | 11",
+    "value": 2,
+    "w": "Bugis | EW | 12",
+  },
+  Object {
+    "v": "Bugis | EW | 12",
+    "value": 2,
+    "w": "Lavender | EW | 11",
+  },
+  Object {
+    "v": "Bugis | EW | 12",
+    "value": 2,
+    "w": "City Hall | EW | 13",
+  },
+  Object {
+    "v": "City Hall | EW | 13",
+    "value": 2,
+    "w": "Bugis | EW | 12",
+  },
+  Object {
+    "v": "City Hall | EW | 13",
+    "value": 2,
+    "w": "Raffles Place | EW | 14",
+  },
+  Object {
+    "v": "Raffles Place | EW | 14",
+    "value": 2,
+    "w": "City Hall | EW | 13",
+  },
+  Object {
+    "v": "Raffles Place | EW | 14",
+    "value": 2,
+    "w": "Tanjong Pagar | EW | 15",
+  },
+  Object {
+    "v": "Tanjong Pagar | EW | 15",
+    "value": 2,
+    "w": "Raffles Place | EW | 14",
+  },
+  Object {
+    "v": "Tanjong Pagar | EW | 15",
+    "value": 2,
+    "w": "Outram Park | EW | 16",
+  },
+  Object {
+    "v": "Outram Park | EW | 16",
+    "value": 2,
+    "w": "Tanjong Pagar | EW | 15",
+  },
+  Object {
+    "v": "Outram Park | EW | 16",
+    "value": 2,
+    "w": "Tiong Bahru | EW | 17",
+  },
+  Object {
+    "v": "Tiong Bahru | EW | 17",
+    "value": 2,
+    "w": "Outram Park | EW | 16",
+  },
+  Object {
+    "v": "Tiong Bahru | EW | 17",
+    "value": 2,
+    "w": "Redhill | EW | 18",
+  },
+  Object {
+    "v": "Redhill | EW | 18",
+    "value": 2,
+    "w": "Tiong Bahru | EW | 17",
+  },
+  Object {
+    "v": "Redhill | EW | 18",
+    "value": 2,
+    "w": "Queenstown | EW | 19",
+  },
+  Object {
+    "v": "Queenstown | EW | 19",
+    "value": 2,
+    "w": "Redhill | EW | 18",
+  },
+  Object {
+    "v": "Queenstown | EW | 19",
+    "value": 2,
+    "w": "Commonwealth | EW | 20",
+  },
+  Object {
+    "v": "Commonwealth | EW | 20",
+    "value": 2,
+    "w": "Queenstown | EW | 19",
+  },
+  Object {
+    "v": "Commonwealth | EW | 20",
+    "value": 2,
+    "w": "Buona Vista | EW | 21",
+  },
+  Object {
+    "v": "Buona Vista | EW | 21",
+    "value": 2,
+    "w": "Commonwealth | EW | 20",
+  },
+  Object {
+    "v": "Buona Vista | EW | 21",
+    "value": 2,
+    "w": "Dover | EW | 22",
+  },
+  Object {
+    "v": "Dover | EW | 22",
+    "value": 2,
+    "w": "Buona Vista | EW | 21",
+  },
+  Object {
+    "v": "Dover | EW | 22",
+    "value": 2,
+    "w": "Clementi | EW | 23",
+  },
+  Object {
+    "v": "Clementi | EW | 23",
+    "value": 2,
+    "w": "Dover | EW | 22",
+  },
+  Object {
+    "v": "Clementi | EW | 23",
+    "value": 2,
+    "w": "Jurong East | EW | 24",
+  },
+  Object {
+    "v": "Jurong East | EW | 24",
+    "value": 2,
+    "w": "Clementi | EW | 23",
+  },
+  Object {
+    "v": "Jurong East | EW | 24",
+    "value": 2,
+    "w": "Chinese Garden | EW | 25",
+  },
+  Object {
+    "v": "Chinese Garden | EW | 25",
+    "value": 2,
+    "w": "Jurong East | EW | 24",
+  },
+  Object {
+    "v": "Chinese Garden | EW | 25",
+    "value": 2,
+    "w": "Lakeside | EW | 26",
+  },
+  Object {
+    "v": "Lakeside | EW | 26",
+    "value": 2,
+    "w": "Chinese Garden | EW | 25",
+  },
+  Object {
+    "v": "Lakeside | EW | 26",
+    "value": 2,
+    "w": "Boon Lay | EW | 27",
+  },
+  Object {
+    "v": "Boon Lay | EW | 27",
+    "value": 2,
+    "w": "Lakeside | EW | 26",
+  },
+  Object {
+    "v": "Boon Lay | EW | 27",
+    "value": 2,
+    "w": "Pioneer | EW | 28",
+  },
+  Object {
+    "v": "Pioneer | EW | 28",
+    "value": 2,
+    "w": "Boon Lay | EW | 27",
+  },
+  Object {
+    "v": "Pioneer | EW | 28",
+    "value": 2,
+    "w": "Joo Koon | EW | 29",
+  },
+  Object {
+    "v": "Joo Koon | EW | 29",
+    "value": 2,
+    "w": "Pioneer | EW | 28",
+  },
+  Object {
+    "v": "Joo Koon | EW | 29",
+    "value": 2,
+    "w": "Gul Circle | EW | 30",
+  },
+  Object {
+    "v": "Gul Circle | EW | 30",
+    "value": 2,
+    "w": "Joo Koon | EW | 29",
+  },
+  Object {
+    "v": "Gul Circle | EW | 30",
+    "value": 2,
+    "w": "Tuas Crescent | EW | 31",
+  },
+  Object {
+    "v": "Tuas Crescent | EW | 31",
+    "value": 2,
+    "w": "Gul Circle | EW | 30",
+  },
+  Object {
+    "v": "Tuas Crescent | EW | 31",
+    "value": 2,
+    "w": "Tuas West Road | EW | 32",
+  },
+  Object {
+    "v": "Tuas West Road | EW | 32",
+    "value": 2,
+    "w": "Tuas Crescent | EW | 31",
+  },
+  Object {
+    "v": "Tuas West Road | EW | 32",
+    "value": 2,
+    "w": "Tuas Link | EW | 33",
+  },
+  Object {
+    "v": "Tuas Link | EW | 33",
+    "value": 2,
+    "w": "Tuas West Road | EW | 32",
+  },
+  Object {
+    "v": "Choa Chu Kang | JS | 1",
+    "value": 2,
+    "w": "Choa Chu Kang West | JS | 2",
+  },
+  Object {
+    "v": "Choa Chu Kang West | JS | 2",
+    "value": 2,
+    "w": "Choa Chu Kang | JS | 1",
+  },
+  Object {
+    "v": "Choa Chu Kang West | JS | 2",
+    "value": 2,
+    "w": "Tengah | JS | 3",
+  },
+  Object {
+    "v": "Tengah | JS | 3",
+    "value": 2,
+    "w": "Choa Chu Kang West | JS | 2",
+  },
+  Object {
+    "v": "Tengah | JS | 3",
+    "value": 2,
+    "w": "Hong Kah | JS | 4",
+  },
+  Object {
+    "v": "Hong Kah | JS | 4",
+    "value": 2,
+    "w": "Tengah | JS | 3",
+  },
+  Object {
+    "v": "Hong Kah | JS | 4",
+    "value": 2,
+    "w": "Corporation | JS | 5",
+  },
+  Object {
+    "v": "Corporation | JS | 5",
+    "value": 2,
+    "w": "Hong Kah | JS | 4",
+  },
+  Object {
+    "v": "Corporation | JS | 5",
+    "value": 2,
+    "w": "Jurong West | JS | 6",
+  },
+  Object {
+    "v": "Jurong West | JS | 6",
+    "value": 2,
+    "w": "Corporation | JS | 5",
+  },
+  Object {
+    "v": "Jurong West | JS | 6",
+    "value": 2,
+    "w": "Bahar Junction | JS | 7",
+  },
+  Object {
+    "v": "Bahar Junction | JS | 7",
+    "value": 2,
+    "w": "Jurong West | JS | 6",
+  },
+  Object {
+    "v": "Bahar Junction | JS | 7",
+    "value": 2,
+    "w": "Boon Lay | JS | 8",
+  },
+  Object {
+    "v": "Boon Lay | JS | 8",
+    "value": 2,
+    "w": "Bahar Junction | JS | 7",
+  },
+  Object {
+    "v": "Boon Lay | JS | 8",
+    "value": 2,
+    "w": "Enterprise | JS | 9",
+  },
+  Object {
+    "v": "Enterprise | JS | 9",
+    "value": 2,
+    "w": "Boon Lay | JS | 8",
+  },
+  Object {
+    "v": "Enterprise | JS | 9",
+    "value": 2,
+    "w": "Tukang | JS | 10",
+  },
+  Object {
+    "v": "Tukang | JS | 10",
+    "value": 2,
+    "w": "Enterprise | JS | 9",
+  },
+  Object {
+    "v": "Tukang | JS | 10",
+    "value": 2,
+    "w": "Jurong Hill | JS | 11",
+  },
+  Object {
+    "v": "Jurong Hill | JS | 11",
+    "value": 2,
+    "w": "Tukang | JS | 10",
+  },
+  Object {
+    "v": "Jurong Hill | JS | 11",
+    "value": 2,
+    "w": "Jurong Pier | JS | 12",
+  },
+  Object {
+    "v": "Jurong Pier | JS | 12",
+    "value": 2,
+    "w": "Jurong Hill | JS | 11",
+  },
+  Object {
+    "v": "Sengkang | SE | 0",
+    "value": 2,
+    "w": "Compassvale | SE | 1",
+  },
+  Object {
+    "v": "Compassvale | SE | 1",
+    "value": 2,
+    "w": "Sengkang | SE | 0",
+  },
+  Object {
+    "v": "Compassvale | SE | 1",
+    "value": 2,
+    "w": "Rumbia | SE | 2",
+  },
+  Object {
+    "v": "Rumbia | SE | 2",
+    "value": 2,
+    "w": "Compassvale | SE | 1",
+  },
+  Object {
+    "v": "Rumbia | SE | 2",
+    "value": 2,
+    "w": "Bakau | SE | 3",
+  },
+  Object {
+    "v": "Bakau | SE | 3",
+    "value": 2,
+    "w": "Rumbia | SE | 2",
+  },
+  Object {
+    "v": "Bakau | SE | 3",
+    "value": 2,
+    "w": "Kangkar | SE | 4",
+  },
+  Object {
+    "v": "Kangkar | SE | 4",
+    "value": 2,
+    "w": "Bakau | SE | 3",
+  },
+  Object {
+    "v": "Kangkar | SE | 4",
+    "value": 2,
+    "w": "Ranggung | SE | 5",
+  },
+  Object {
+    "v": "Ranggung | SE | 5",
+    "value": 2,
+    "w": "Kangkar | SE | 4",
+  },
+  Object {
+    "v": "Ranggung | SE | 5",
+    "value": 2,
+    "w": "Sengkang | SE | 6",
+  },
+  Object {
+    "v": "Sengkang | SE | 6",
+    "value": 2,
+    "w": "Ranggung | SE | 5",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 1",
+    "value": 2,
+    "w": "South View | BP | 2",
+  },
+  Object {
+    "v": "South View | BP | 2",
+    "value": 2,
+    "w": "Choa Chu Kang | BP | 1",
+  },
+  Object {
+    "v": "South View | BP | 2",
+    "value": 2,
+    "w": "Keat Hong | BP | 3",
+  },
+  Object {
+    "v": "Keat Hong | BP | 3",
+    "value": 2,
+    "w": "South View | BP | 2",
+  },
+  Object {
+    "v": "Keat Hong | BP | 3",
+    "value": 2,
+    "w": "Teck Whye | BP | 4",
+  },
+  Object {
+    "v": "Teck Whye | BP | 4",
+    "value": 2,
+    "w": "Keat Hong | BP | 3",
+  },
+  Object {
+    "v": "Teck Whye | BP | 4",
+    "value": 2,
+    "w": "Phoenix | BP | 5",
+  },
+  Object {
+    "v": "Phoenix | BP | 5",
+    "value": 2,
+    "w": "Teck Whye | BP | 4",
+  },
+  Object {
+    "v": "Phoenix | BP | 5",
+    "value": 2,
+    "w": "Bukit Panjang | BP | 6",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 6",
+    "value": 2,
+    "w": "Phoenix | BP | 5",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 6",
+    "value": 2,
+    "w": "Petir | BP | 7",
+  },
+  Object {
+    "v": "Petir | BP | 7",
+    "value": 2,
+    "w": "Bukit Panjang | BP | 6",
+  },
+  Object {
+    "v": "Petir | BP | 7",
+    "value": 2,
+    "w": "Pending | BP | 8",
+  },
+  Object {
+    "v": "Pending | BP | 8",
+    "value": 2,
+    "w": "Petir | BP | 7",
+  },
+  Object {
+    "v": "Pending | BP | 8",
+    "value": 2,
+    "w": "Bangkit | BP | 9",
+  },
+  Object {
+    "v": "Bangkit | BP | 9",
+    "value": 2,
+    "w": "Pending | BP | 8",
+  },
+  Object {
+    "v": "Bangkit | BP | 9",
+    "value": 2,
+    "w": "Fajar | BP | 10",
+  },
+  Object {
+    "v": "Fajar | BP | 10",
+    "value": 2,
+    "w": "Bangkit | BP | 9",
+  },
+  Object {
+    "v": "Fajar | BP | 10",
+    "value": 2,
+    "w": "Segar | BP | 11",
+  },
+  Object {
+    "v": "Segar | BP | 11",
+    "value": 2,
+    "w": "Fajar | BP | 10",
+  },
+  Object {
+    "v": "Segar | BP | 11",
+    "value": 2,
+    "w": "Jelapang | BP | 12",
+  },
+  Object {
+    "v": "Jelapang | BP | 12",
+    "value": 2,
+    "w": "Segar | BP | 11",
+  },
+  Object {
+    "v": "Jelapang | BP | 12",
+    "value": 2,
+    "w": "Senja | BP | 13",
+  },
+  Object {
+    "v": "Senja | BP | 13",
+    "value": 2,
+    "w": "Jelapang | BP | 12",
+  },
+  Object {
+    "v": "Senja | BP | 13",
+    "value": 2,
+    "w": "Bukit Panjang | BP | 14",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 14",
+    "value": 2,
+    "w": "Senja | BP | 13",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 14",
+    "value": 2,
+    "w": "Phoenix | BP | 15",
+  },
+  Object {
+    "v": "Phoenix | BP | 15",
+    "value": 2,
+    "w": "Bukit Panjang | BP | 14",
+  },
+  Object {
+    "v": "Phoenix | BP | 15",
+    "value": 2,
+    "w": "Teck Whye | BP | 16",
+  },
+  Object {
+    "v": "Teck Whye | BP | 16",
+    "value": 2,
+    "w": "Phoenix | BP | 15",
+  },
+  Object {
+    "v": "Teck Whye | BP | 16",
+    "value": 2,
+    "w": "Keat Hong | BP | 17",
+  },
+  Object {
+    "v": "Keat Hong | BP | 17",
+    "value": 2,
+    "w": "Teck Whye | BP | 16",
+  },
+  Object {
+    "v": "Keat Hong | BP | 17",
+    "value": 2,
+    "w": "South View | BP | 18",
+  },
+  Object {
+    "v": "South View | BP | 18",
+    "value": 2,
+    "w": "Keat Hong | BP | 17",
+  },
+  Object {
+    "v": "South View | BP | 18",
+    "value": 2,
+    "w": "Choa Chu Kang | BP | 19",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 19",
+    "value": 2,
+    "w": "South View | BP | 18",
+  },
+  Object {
+    "v": "Dhoby Ghaut | CC | 1",
+    "value": 2,
+    "w": "Bras Basah | CC | 2",
+  },
+  Object {
+    "v": "Bras Basah | CC | 2",
+    "value": 2,
+    "w": "Dhoby Ghaut | CC | 1",
+  },
+  Object {
+    "v": "Bras Basah | CC | 2",
+    "value": 2,
+    "w": "Esplanade | CC | 3",
+  },
+  Object {
+    "v": "Esplanade | CC | 3",
+    "value": 2,
+    "w": "Bras Basah | CC | 2",
+  },
+  Object {
+    "v": "Esplanade | CC | 3",
+    "value": 2,
+    "w": "Promenade | CC | 4",
+  },
+  Object {
+    "v": "Promenade | CC | 4",
+    "value": 2,
+    "w": "Esplanade | CC | 3",
+  },
+  Object {
+    "v": "Promenade | CC | 4",
+    "value": 2,
+    "w": "Nicoll Highway | CC | 5",
+  },
+  Object {
+    "v": "Nicoll Highway | CC | 5",
+    "value": 2,
+    "w": "Promenade | CC | 4",
+  },
+  Object {
+    "v": "Nicoll Highway | CC | 5",
+    "value": 2,
+    "w": "Stadium | CC | 6",
+  },
+  Object {
+    "v": "Stadium | CC | 6",
+    "value": 2,
+    "w": "Nicoll Highway | CC | 5",
+  },
+  Object {
+    "v": "Stadium | CC | 6",
+    "value": 2,
+    "w": "Mountbatten | CC | 7",
+  },
+  Object {
+    "v": "Mountbatten | CC | 7",
+    "value": 2,
+    "w": "Stadium | CC | 6",
+  },
+  Object {
+    "v": "Mountbatten | CC | 7",
+    "value": 2,
+    "w": "Dakota | CC | 8",
+  },
+  Object {
+    "v": "Dakota | CC | 8",
+    "value": 2,
+    "w": "Mountbatten | CC | 7",
+  },
+  Object {
+    "v": "Dakota | CC | 8",
+    "value": 2,
+    "w": "Paya Lebar | CC | 9",
+  },
+  Object {
+    "v": "Paya Lebar | CC | 9",
+    "value": 2,
+    "w": "Dakota | CC | 8",
+  },
+  Object {
+    "v": "Paya Lebar | CC | 9",
+    "value": 2,
+    "w": "MacPherson | CC | 10",
+  },
+  Object {
+    "v": "MacPherson | CC | 10",
+    "value": 2,
+    "w": "Paya Lebar | CC | 9",
+  },
+  Object {
+    "v": "MacPherson | CC | 10",
+    "value": 2,
+    "w": "Tai Seng | CC | 11",
+  },
+  Object {
+    "v": "Tai Seng | CC | 11",
+    "value": 2,
+    "w": "MacPherson | CC | 10",
+  },
+  Object {
+    "v": "Tai Seng | CC | 11",
+    "value": 2,
+    "w": "Bartley | CC | 12",
+  },
+  Object {
+    "v": "Bartley | CC | 12",
+    "value": 2,
+    "w": "Tai Seng | CC | 11",
+  },
+  Object {
+    "v": "Bartley | CC | 12",
+    "value": 2,
+    "w": "Serangoon | CC | 13",
+  },
+  Object {
+    "v": "Serangoon | CC | 13",
+    "value": 2,
+    "w": "Bartley | CC | 12",
+  },
+  Object {
+    "v": "Serangoon | CC | 13",
+    "value": 2,
+    "w": "Lorong Chuan | CC | 14",
+  },
+  Object {
+    "v": "Lorong Chuan | CC | 14",
+    "value": 2,
+    "w": "Serangoon | CC | 13",
+  },
+  Object {
+    "v": "Lorong Chuan | CC | 14",
+    "value": 2,
+    "w": "Bishan | CC | 15",
+  },
+  Object {
+    "v": "Bishan | CC | 15",
+    "value": 2,
+    "w": "Lorong Chuan | CC | 14",
+  },
+  Object {
+    "v": "Bishan | CC | 15",
+    "value": 2,
+    "w": "Marymount | CC | 16",
+  },
+  Object {
+    "v": "Marymount | CC | 16",
+    "value": 2,
+    "w": "Bishan | CC | 15",
+  },
+  Object {
+    "v": "Marymount | CC | 16",
+    "value": 2,
+    "w": "Caldecott | CC | 17",
+  },
+  Object {
+    "v": "Caldecott | CC | 17",
+    "value": 2,
+    "w": "Marymount | CC | 16",
+  },
+  Object {
+    "v": "Caldecott | CC | 17",
+    "value": 2,
+    "w": "Botanic Gardens | CC | 19",
+  },
+  Object {
+    "v": "Botanic Gardens | CC | 19",
+    "value": 2,
+    "w": "Caldecott | CC | 17",
+  },
+  Object {
+    "v": "Botanic Gardens | CC | 19",
+    "value": 2,
+    "w": "Farrer Road | CC | 20",
+  },
+  Object {
+    "v": "Farrer Road | CC | 20",
+    "value": 2,
+    "w": "Botanic Gardens | CC | 19",
+  },
+  Object {
+    "v": "Farrer Road | CC | 20",
+    "value": 2,
+    "w": "Holland Village | CC | 21",
+  },
+  Object {
+    "v": "Holland Village | CC | 21",
+    "value": 2,
+    "w": "Farrer Road | CC | 20",
+  },
+  Object {
+    "v": "Holland Village | CC | 21",
+    "value": 2,
+    "w": "Buona Vista | CC | 22",
+  },
+  Object {
+    "v": "Buona Vista | CC | 22",
+    "value": 2,
+    "w": "Holland Village | CC | 21",
+  },
+  Object {
+    "v": "Buona Vista | CC | 22",
+    "value": 2,
+    "w": "one-north | CC | 23",
+  },
+  Object {
+    "v": "one-north | CC | 23",
+    "value": 2,
+    "w": "Buona Vista | CC | 22",
+  },
+  Object {
+    "v": "one-north | CC | 23",
+    "value": 2,
+    "w": "Kent Ridge | CC | 24",
+  },
+  Object {
+    "v": "Kent Ridge | CC | 24",
+    "value": 2,
+    "w": "one-north | CC | 23",
+  },
+  Object {
+    "v": "Kent Ridge | CC | 24",
+    "value": 2,
+    "w": "Haw Par Villa | CC | 25",
+  },
+  Object {
+    "v": "Haw Par Villa | CC | 25",
+    "value": 2,
+    "w": "Kent Ridge | CC | 24",
+  },
+  Object {
+    "v": "Haw Par Villa | CC | 25",
+    "value": 2,
+    "w": "Pasir Panjang | CC | 26",
+  },
+  Object {
+    "v": "Pasir Panjang | CC | 26",
+    "value": 2,
+    "w": "Haw Par Villa | CC | 25",
+  },
+  Object {
+    "v": "Pasir Panjang | CC | 26",
+    "value": 2,
+    "w": "Labrador Park | CC | 27",
+  },
+  Object {
+    "v": "Labrador Park | CC | 27",
+    "value": 2,
+    "w": "Pasir Panjang | CC | 26",
+  },
+  Object {
+    "v": "Labrador Park | CC | 27",
+    "value": 2,
+    "w": "Telok Blangah | CC | 28",
+  },
+  Object {
+    "v": "Telok Blangah | CC | 28",
+    "value": 2,
+    "w": "Labrador Park | CC | 27",
+  },
+  Object {
+    "v": "Telok Blangah | CC | 28",
+    "value": 2,
+    "w": "HarbourFront | CC | 29",
+  },
+  Object {
+    "v": "HarbourFront | CC | 29",
+    "value": 2,
+    "w": "Telok Blangah | CC | 28",
+  },
+  Object {
+    "v": "HarbourFront | CC | 29",
+    "value": 2,
+    "w": "Keppel | CC | 30",
+  },
+  Object {
+    "v": "Keppel | CC | 30",
+    "value": 2,
+    "w": "HarbourFront | CC | 29",
+  },
+  Object {
+    "v": "Keppel | CC | 30",
+    "value": 2,
+    "w": "Cantonment | CC | 31",
+  },
+  Object {
+    "v": "Cantonment | CC | 31",
+    "value": 2,
+    "w": "Keppel | CC | 30",
+  },
+  Object {
+    "v": "Cantonment | CC | 31",
+    "value": 2,
+    "w": "Prince Edward Road | CC | 32",
+  },
+  Object {
+    "v": "Prince Edward Road | CC | 32",
+    "value": 2,
+    "w": "Cantonment | CC | 31",
+  },
+  Object {
+    "v": "Prince Edward Road | CC | 32",
+    "value": 2,
+    "w": "Marina Bay | CC | 33",
+  },
+  Object {
+    "v": "Marina Bay | CC | 33",
+    "value": 2,
+    "w": "Prince Edward Road | CC | 32",
+  },
+  Object {
+    "v": "Marina Bay | CE | 2",
+    "value": 2,
+    "w": "Bayfront | CE | 3",
+  },
+  Object {
+    "v": "Bayfront | CE | 3",
+    "value": 2,
+    "w": "Marina Bay | CE | 2",
+  },
+  Object {
+    "v": "Bayfront | CE | 3",
+    "value": 2,
+    "w": "Promenade | CE | 4",
+  },
+  Object {
+    "v": "Promenade | CE | 4",
+    "value": 2,
+    "w": "Bayfront | CE | 3",
+  },
+  Object {
+    "v": "Promenade | CE | 4",
+    "value": 2,
+    "w": "Nicoll Highway | CE | 5",
+  },
+  Object {
+    "v": "Nicoll Highway | CE | 5",
+    "value": 2,
+    "w": "Promenade | CE | 4",
+  },
+  Object {
+    "v": "Nicoll Highway | CE | 5",
+    "value": 2,
+    "w": "Stadium | CE | 6",
+  },
+  Object {
+    "v": "Stadium | CE | 6",
+    "value": 2,
+    "w": "Nicoll Highway | CE | 5",
+  },
+  Object {
+    "v": "Stadium | CE | 6",
+    "value": 2,
+    "w": "Mountbatten | CE | 7",
+  },
+  Object {
+    "v": "Mountbatten | CE | 7",
+    "value": 2,
+    "w": "Stadium | CE | 6",
+  },
+  Object {
+    "v": "Mountbatten | CE | 7",
+    "value": 2,
+    "w": "Dakota | CE | 8",
+  },
+  Object {
+    "v": "Dakota | CE | 8",
+    "value": 2,
+    "w": "Mountbatten | CE | 7",
+  },
+  Object {
+    "v": "Dakota | CE | 8",
+    "value": 2,
+    "w": "Paya Lebar | CE | 9",
+  },
+  Object {
+    "v": "Paya Lebar | CE | 9",
+    "value": 2,
+    "w": "Dakota | CE | 8",
+  },
+  Object {
+    "v": "Paya Lebar | CE | 9",
+    "value": 2,
+    "w": "MacPherson | CE | 10",
+  },
+  Object {
+    "v": "MacPherson | CE | 10",
+    "value": 2,
+    "w": "Paya Lebar | CE | 9",
+  },
+  Object {
+    "v": "MacPherson | CE | 10",
+    "value": 2,
+    "w": "Tai Seng | CE | 11",
+  },
+  Object {
+    "v": "Tai Seng | CE | 11",
+    "value": 2,
+    "w": "MacPherson | CE | 10",
+  },
+  Object {
+    "v": "Tai Seng | CE | 11",
+    "value": 2,
+    "w": "Bartley | CE | 12",
+  },
+  Object {
+    "v": "Bartley | CE | 12",
+    "value": 2,
+    "w": "Tai Seng | CE | 11",
+  },
+  Object {
+    "v": "Bartley | CE | 12",
+    "value": 2,
+    "w": "Serangoon | CE | 13",
+  },
+  Object {
+    "v": "Serangoon | CE | 13",
+    "value": 2,
+    "w": "Bartley | CE | 12",
+  },
+  Object {
+    "v": "Serangoon | CE | 13",
+    "value": 2,
+    "w": "Lorong Chuan | CE | 14",
+  },
+  Object {
+    "v": "Lorong Chuan | CE | 14",
+    "value": 2,
+    "w": "Serangoon | CE | 13",
+  },
+  Object {
+    "v": "Lorong Chuan | CE | 14",
+    "value": 2,
+    "w": "Bishan | CE | 15",
+  },
+  Object {
+    "v": "Bishan | CE | 15",
+    "value": 2,
+    "w": "Lorong Chuan | CE | 14",
+  },
+  Object {
+    "v": "Bishan | CE | 15",
+    "value": 2,
+    "w": "Marymount | CE | 16",
+  },
+  Object {
+    "v": "Marymount | CE | 16",
+    "value": 2,
+    "w": "Bishan | CE | 15",
+  },
+  Object {
+    "v": "Marymount | CE | 16",
+    "value": 2,
+    "w": "Caldecott | CE | 17",
+  },
+  Object {
+    "v": "Caldecott | CE | 17",
+    "value": 2,
+    "w": "Marymount | CE | 16",
+  },
+  Object {
+    "v": "Caldecott | CE | 17",
+    "value": 2,
+    "w": "Botanic Gardens | CE | 19",
+  },
+  Object {
+    "v": "Botanic Gardens | CE | 19",
+    "value": 2,
+    "w": "Caldecott | CE | 17",
+  },
+  Object {
+    "v": "Botanic Gardens | CE | 19",
+    "value": 2,
+    "w": "Farrer Road | CE | 20",
+  },
+  Object {
+    "v": "Farrer Road | CE | 20",
+    "value": 2,
+    "w": "Botanic Gardens | CE | 19",
+  },
+  Object {
+    "v": "Farrer Road | CE | 20",
+    "value": 2,
+    "w": "Holland Village | CE | 21",
+  },
+  Object {
+    "v": "Holland Village | CE | 21",
+    "value": 2,
+    "w": "Farrer Road | CE | 20",
+  },
+  Object {
+    "v": "Holland Village | CE | 21",
+    "value": 2,
+    "w": "Buona Vista | CE | 22",
+  },
+  Object {
+    "v": "Buona Vista | CE | 22",
+    "value": 2,
+    "w": "Holland Village | CE | 21",
+  },
+  Object {
+    "v": "Buona Vista | CE | 22",
+    "value": 2,
+    "w": "one-north | CE | 23",
+  },
+  Object {
+    "v": "one-north | CE | 23",
+    "value": 2,
+    "w": "Buona Vista | CE | 22",
+  },
+  Object {
+    "v": "one-north | CE | 23",
+    "value": 2,
+    "w": "Kent Ridge | CE | 24",
+  },
+  Object {
+    "v": "Kent Ridge | CE | 24",
+    "value": 2,
+    "w": "one-north | CE | 23",
+  },
+  Object {
+    "v": "Kent Ridge | CE | 24",
+    "value": 2,
+    "w": "Haw Par Villa | CE | 25",
+  },
+  Object {
+    "v": "Haw Par Villa | CE | 25",
+    "value": 2,
+    "w": "Kent Ridge | CE | 24",
+  },
+  Object {
+    "v": "Haw Par Villa | CE | 25",
+    "value": 2,
+    "w": "Pasir Panjang | CE | 26",
+  },
+  Object {
+    "v": "Pasir Panjang | CE | 26",
+    "value": 2,
+    "w": "Haw Par Villa | CE | 25",
+  },
+  Object {
+    "v": "Pasir Panjang | CE | 26",
+    "value": 2,
+    "w": "Labrador Park | CE | 27",
+  },
+  Object {
+    "v": "Labrador Park | CE | 27",
+    "value": 2,
+    "w": "Pasir Panjang | CE | 26",
+  },
+  Object {
+    "v": "Labrador Park | CE | 27",
+    "value": 2,
+    "w": "Telok Blangah | CE | 28",
+  },
+  Object {
+    "v": "Telok Blangah | CE | 28",
+    "value": 2,
+    "w": "Labrador Park | CE | 27",
+  },
+  Object {
+    "v": "Telok Blangah | CE | 28",
+    "value": 2,
+    "w": "HarbourFront | CE | 29",
+  },
+  Object {
+    "v": "HarbourFront | CE | 29",
+    "value": 2,
+    "w": "Telok Blangah | CE | 28",
+  },
+  Object {
+    "v": "HarbourFront | CE | 29",
+    "value": 2,
+    "w": "Keppel | CE | 30",
+  },
+  Object {
+    "v": "Keppel | CE | 30",
+    "value": 2,
+    "w": "HarbourFront | CE | 29",
+  },
+  Object {
+    "v": "Keppel | CE | 30",
+    "value": 2,
+    "w": "Cantonment | CE | 31",
+  },
+  Object {
+    "v": "Cantonment | CE | 31",
+    "value": 2,
+    "w": "Keppel | CE | 30",
+  },
+  Object {
+    "v": "Cantonment | CE | 31",
+    "value": 2,
+    "w": "Prince Edward Road | CE | 32",
+  },
+  Object {
+    "v": "Prince Edward Road | CE | 32",
+    "value": 2,
+    "w": "Cantonment | CE | 31",
+  },
+  Object {
+    "v": "Prince Edward Road | CE | 32",
+    "value": 2,
+    "w": "Marina Bay | CE | 33",
+  },
+  Object {
+    "v": "Marina Bay | CE | 33",
+    "value": 2,
+    "w": "Prince Edward Road | CE | 32",
+  },
+  Object {
+    "v": "Bukit Panjang | DT | 1",
+    "value": 2,
+    "w": "Cashew | DT | 2",
+  },
+  Object {
+    "v": "Cashew | DT | 2",
+    "value": 2,
+    "w": "Bukit Panjang | DT | 1",
+  },
+  Object {
+    "v": "Cashew | DT | 2",
+    "value": 2,
+    "w": "Hillview | DT | 3",
+  },
+  Object {
+    "v": "Hillview | DT | 3",
+    "value": 2,
+    "w": "Cashew | DT | 2",
+  },
+  Object {
+    "v": "Hillview | DT | 3",
+    "value": 2,
+    "w": "Beauty World | DT | 5",
+  },
+  Object {
+    "v": "Beauty World | DT | 5",
+    "value": 2,
+    "w": "Hillview | DT | 3",
+  },
+  Object {
+    "v": "Beauty World | DT | 5",
+    "value": 2,
+    "w": "King Albert Park | DT | 6",
+  },
+  Object {
+    "v": "King Albert Park | DT | 6",
+    "value": 2,
+    "w": "Beauty World | DT | 5",
+  },
+  Object {
+    "v": "King Albert Park | DT | 6",
+    "value": 2,
+    "w": "Sixth Avenue | DT | 7",
+  },
+  Object {
+    "v": "Sixth Avenue | DT | 7",
+    "value": 2,
+    "w": "King Albert Park | DT | 6",
+  },
+  Object {
+    "v": "Sixth Avenue | DT | 7",
+    "value": 2,
+    "w": "Tan Kah Kee | DT | 8",
+  },
+  Object {
+    "v": "Tan Kah Kee | DT | 8",
+    "value": 2,
+    "w": "Sixth Avenue | DT | 7",
+  },
+  Object {
+    "v": "Tan Kah Kee | DT | 8",
+    "value": 2,
+    "w": "Botanic Gardens | DT | 9",
+  },
+  Object {
+    "v": "Botanic Gardens | DT | 9",
+    "value": 2,
+    "w": "Tan Kah Kee | DT | 8",
+  },
+  Object {
+    "v": "Botanic Gardens | DT | 9",
+    "value": 2,
+    "w": "Stevens | DT | 10",
+  },
+  Object {
+    "v": "Stevens | DT | 10",
+    "value": 2,
+    "w": "Botanic Gardens | DT | 9",
+  },
+  Object {
+    "v": "Stevens | DT | 10",
+    "value": 2,
+    "w": "Newton | DT | 11",
+  },
+  Object {
+    "v": "Newton | DT | 11",
+    "value": 2,
+    "w": "Stevens | DT | 10",
+  },
+  Object {
+    "v": "Newton | DT | 11",
+    "value": 2,
+    "w": "Little India | DT | 12",
+  },
+  Object {
+    "v": "Little India | DT | 12",
+    "value": 2,
+    "w": "Newton | DT | 11",
+  },
+  Object {
+    "v": "Little India | DT | 12",
+    "value": 2,
+    "w": "Rochor | DT | 13",
+  },
+  Object {
+    "v": "Rochor | DT | 13",
+    "value": 2,
+    "w": "Little India | DT | 12",
+  },
+  Object {
+    "v": "Rochor | DT | 13",
+    "value": 2,
+    "w": "Bugis | DT | 14",
+  },
+  Object {
+    "v": "Bugis | DT | 14",
+    "value": 2,
+    "w": "Rochor | DT | 13",
+  },
+  Object {
+    "v": "Bugis | DT | 14",
+    "value": 2,
+    "w": "Promenade | DT | 15",
+  },
+  Object {
+    "v": "Promenade | DT | 15",
+    "value": 2,
+    "w": "Bugis | DT | 14",
+  },
+  Object {
+    "v": "Promenade | DT | 15",
+    "value": 2,
+    "w": "Bayfront | DT | 16",
+  },
+  Object {
+    "v": "Bayfront | DT | 16",
+    "value": 2,
+    "w": "Promenade | DT | 15",
+  },
+  Object {
+    "v": "Bayfront | DT | 16",
+    "value": 2,
+    "w": "Downtown | DT | 17",
+  },
+  Object {
+    "v": "Downtown | DT | 17",
+    "value": 2,
+    "w": "Bayfront | DT | 16",
+  },
+  Object {
+    "v": "Downtown | DT | 17",
+    "value": 2,
+    "w": "Telok Ayer | DT | 18",
+  },
+  Object {
+    "v": "Telok Ayer | DT | 18",
+    "value": 2,
+    "w": "Downtown | DT | 17",
+  },
+  Object {
+    "v": "Telok Ayer | DT | 18",
+    "value": 2,
+    "w": "Chinatown | DT | 19",
+  },
+  Object {
+    "v": "Chinatown | DT | 19",
+    "value": 2,
+    "w": "Telok Ayer | DT | 18",
+  },
+  Object {
+    "v": "Chinatown | DT | 19",
+    "value": 2,
+    "w": "Fort Canning | DT | 20",
+  },
+  Object {
+    "v": "Fort Canning | DT | 20",
+    "value": 2,
+    "w": "Chinatown | DT | 19",
+  },
+  Object {
+    "v": "Fort Canning | DT | 20",
+    "value": 2,
+    "w": "Bencoolen | DT | 21",
+  },
+  Object {
+    "v": "Bencoolen | DT | 21",
+    "value": 2,
+    "w": "Fort Canning | DT | 20",
+  },
+  Object {
+    "v": "Bencoolen | DT | 21",
+    "value": 2,
+    "w": "Jalan Besar | DT | 22",
+  },
+  Object {
+    "v": "Jalan Besar | DT | 22",
+    "value": 2,
+    "w": "Bencoolen | DT | 21",
+  },
+  Object {
+    "v": "Jalan Besar | DT | 22",
+    "value": 2,
+    "w": "Bendemeer | DT | 23",
+  },
+  Object {
+    "v": "Bendemeer | DT | 23",
+    "value": 2,
+    "w": "Jalan Besar | DT | 22",
+  },
+  Object {
+    "v": "Bendemeer | DT | 23",
+    "value": 2,
+    "w": "Geylang Bahru | DT | 24",
+  },
+  Object {
+    "v": "Geylang Bahru | DT | 24",
+    "value": 2,
+    "w": "Bendemeer | DT | 23",
+  },
+  Object {
+    "v": "Geylang Bahru | DT | 24",
+    "value": 2,
+    "w": "Mattar | DT | 25",
+  },
+  Object {
+    "v": "Mattar | DT | 25",
+    "value": 2,
+    "w": "Geylang Bahru | DT | 24",
+  },
+  Object {
+    "v": "Mattar | DT | 25",
+    "value": 2,
+    "w": "MacPherson | DT | 26",
+  },
+  Object {
+    "v": "MacPherson | DT | 26",
+    "value": 2,
+    "w": "Mattar | DT | 25",
+  },
+  Object {
+    "v": "MacPherson | DT | 26",
+    "value": 2,
+    "w": "Ubi | DT | 27",
+  },
+  Object {
+    "v": "Ubi | DT | 27",
+    "value": 2,
+    "w": "MacPherson | DT | 26",
+  },
+  Object {
+    "v": "Ubi | DT | 27",
+    "value": 2,
+    "w": "Kaki Bukit | DT | 28",
+  },
+  Object {
+    "v": "Kaki Bukit | DT | 28",
+    "value": 2,
+    "w": "Ubi | DT | 27",
+  },
+  Object {
+    "v": "Kaki Bukit | DT | 28",
+    "value": 2,
+    "w": "Bedok North | DT | 29",
+  },
+  Object {
+    "v": "Bedok North | DT | 29",
+    "value": 2,
+    "w": "Kaki Bukit | DT | 28",
+  },
+  Object {
+    "v": "Bedok North | DT | 29",
+    "value": 2,
+    "w": "Bedok Reservoir | DT | 30",
+  },
+  Object {
+    "v": "Bedok Reservoir | DT | 30",
+    "value": 2,
+    "w": "Bedok North | DT | 29",
+  },
+  Object {
+    "v": "Bedok Reservoir | DT | 30",
+    "value": 2,
+    "w": "Tampines West | DT | 31",
+  },
+  Object {
+    "v": "Tampines West | DT | 31",
+    "value": 2,
+    "w": "Bedok Reservoir | DT | 30",
+  },
+  Object {
+    "v": "Tampines West | DT | 31",
+    "value": 2,
+    "w": "Tampines | DT | 32",
+  },
+  Object {
+    "v": "Tampines | DT | 32",
+    "value": 2,
+    "w": "Tampines West | DT | 31",
+  },
+  Object {
+    "v": "Tampines | DT | 32",
+    "value": 2,
+    "w": "Tampines East | DT | 33",
+  },
+  Object {
+    "v": "Tampines East | DT | 33",
+    "value": 2,
+    "w": "Tampines | DT | 32",
+  },
+  Object {
+    "v": "Tampines East | DT | 33",
+    "value": 2,
+    "w": "Upper Changi | DT | 34",
+  },
+  Object {
+    "v": "Upper Changi | DT | 34",
+    "value": 2,
+    "w": "Tampines East | DT | 33",
+  },
+  Object {
+    "v": "Upper Changi | DT | 34",
+    "value": 2,
+    "w": "Expo | DT | 35",
+  },
+  Object {
+    "v": "Expo | DT | 35",
+    "value": 2,
+    "w": "Upper Changi | DT | 34",
+  },
+  Object {
+    "v": "Expo | DT | 35",
+    "value": 2,
+    "w": "Xilin | DT | 36",
+  },
+  Object {
+    "v": "Xilin | DT | 36",
+    "value": 2,
+    "w": "Expo | DT | 35",
+  },
+  Object {
+    "v": "Xilin | DT | 36",
+    "value": 2,
+    "w": "Sungei Bedok | DT | 37",
+  },
+  Object {
+    "v": "Sungei Bedok | DT | 37",
+    "value": 2,
+    "w": "Xilin | DT | 36",
+  },
+  Object {
+    "v": "Woodlands North | TE | 1",
+    "value": 2,
+    "w": "Woodlands | TE | 2",
+  },
+  Object {
+    "v": "Woodlands | TE | 2",
+    "value": 2,
+    "w": "Woodlands North | TE | 1",
+  },
+  Object {
+    "v": "Woodlands | TE | 2",
+    "value": 2,
+    "w": "Woodlands South | TE | 3",
+  },
+  Object {
+    "v": "Woodlands South | TE | 3",
+    "value": 2,
+    "w": "Woodlands | TE | 2",
+  },
+  Object {
+    "v": "Woodlands South | TE | 3",
+    "value": 2,
+    "w": "Springleaf | TE | 4",
+  },
+  Object {
+    "v": "Springleaf | TE | 4",
+    "value": 2,
+    "w": "Woodlands South | TE | 3",
+  },
+  Object {
+    "v": "Springleaf | TE | 4",
+    "value": 2,
+    "w": "Lentor | TE | 5",
+  },
+  Object {
+    "v": "Lentor | TE | 5",
+    "value": 2,
+    "w": "Springleaf | TE | 4",
+  },
+  Object {
+    "v": "Lentor | TE | 5",
+    "value": 2,
+    "w": "Mayflower | TE | 6",
+  },
+  Object {
+    "v": "Mayflower | TE | 6",
+    "value": 2,
+    "w": "Lentor | TE | 5",
+  },
+  Object {
+    "v": "Mayflower | TE | 6",
+    "value": 2,
+    "w": "Bright Hill | TE | 7",
+  },
+  Object {
+    "v": "Bright Hill | TE | 7",
+    "value": 2,
+    "w": "Mayflower | TE | 6",
+  },
+  Object {
+    "v": "Bright Hill | TE | 7",
+    "value": 2,
+    "w": "Upper Thomson | TE | 8",
+  },
+  Object {
+    "v": "Upper Thomson | TE | 8",
+    "value": 2,
+    "w": "Bright Hill | TE | 7",
+  },
+  Object {
+    "v": "Upper Thomson | TE | 8",
+    "value": 2,
+    "w": "Caldecott | TE | 9",
+  },
+  Object {
+    "v": "Caldecott | TE | 9",
+    "value": 2,
+    "w": "Upper Thomson | TE | 8",
+  },
+  Object {
+    "v": "Caldecott | TE | 9",
+    "value": 2,
+    "w": "Mount Pleasant | TE | 10",
+  },
+  Object {
+    "v": "Mount Pleasant | TE | 10",
+    "value": 2,
+    "w": "Caldecott | TE | 9",
+  },
+  Object {
+    "v": "Mount Pleasant | TE | 10",
+    "value": 2,
+    "w": "Stevens | TE | 11",
+  },
+  Object {
+    "v": "Stevens | TE | 11",
+    "value": 2,
+    "w": "Mount Pleasant | TE | 10",
+  },
+  Object {
+    "v": "Stevens | TE | 11",
+    "value": 2,
+    "w": "Napier | TE | 12",
+  },
+  Object {
+    "v": "Napier | TE | 12",
+    "value": 2,
+    "w": "Stevens | TE | 11",
+  },
+  Object {
+    "v": "Napier | TE | 12",
+    "value": 2,
+    "w": "Orchard Boulevard | TE | 13",
+  },
+  Object {
+    "v": "Orchard Boulevard | TE | 13",
+    "value": 2,
+    "w": "Napier | TE | 12",
+  },
+  Object {
+    "v": "Orchard Boulevard | TE | 13",
+    "value": 2,
+    "w": "Orchard | TE | 14",
+  },
+  Object {
+    "v": "Orchard | TE | 14",
+    "value": 2,
+    "w": "Orchard Boulevard | TE | 13",
+  },
+  Object {
+    "v": "Orchard | TE | 14",
+    "value": 2,
+    "w": "Great World | TE | 15",
+  },
+  Object {
+    "v": "Great World | TE | 15",
+    "value": 2,
+    "w": "Orchard | TE | 14",
+  },
+  Object {
+    "v": "Great World | TE | 15",
+    "value": 2,
+    "w": "Havelock | TE | 16",
+  },
+  Object {
+    "v": "Havelock | TE | 16",
+    "value": 2,
+    "w": "Great World | TE | 15",
+  },
+  Object {
+    "v": "Havelock | TE | 16",
+    "value": 2,
+    "w": "Outram Park | TE | 17",
+  },
+  Object {
+    "v": "Outram Park | TE | 17",
+    "value": 2,
+    "w": "Havelock | TE | 16",
+  },
+  Object {
+    "v": "Outram Park | TE | 17",
+    "value": 2,
+    "w": "Maxwell | TE | 18",
+  },
+  Object {
+    "v": "Maxwell | TE | 18",
+    "value": 2,
+    "w": "Outram Park | TE | 17",
+  },
+  Object {
+    "v": "Maxwell | TE | 18",
+    "value": 2,
+    "w": "Shenton Way | TE | 19",
+  },
+  Object {
+    "v": "Shenton Way | TE | 19",
+    "value": 2,
+    "w": "Maxwell | TE | 18",
+  },
+  Object {
+    "v": "Shenton Way | TE | 19",
+    "value": 2,
+    "w": "Marina Bay | TE | 20",
+  },
+  Object {
+    "v": "Marina Bay | TE | 20",
+    "value": 2,
+    "w": "Shenton Way | TE | 19",
+  },
+  Object {
+    "v": "Marina Bay | TE | 20",
+    "value": 2,
+    "w": "Marina South | TE | 21",
+  },
+  Object {
+    "v": "Marina South | TE | 21",
+    "value": 2,
+    "w": "Marina Bay | TE | 20",
+  },
+  Object {
+    "v": "Marina South | TE | 21",
+    "value": 2,
+    "w": "Gardens by the Bay | TE | 22",
+  },
+  Object {
+    "v": "Gardens by the Bay | TE | 22",
+    "value": 2,
+    "w": "Marina South | TE | 21",
+  },
+  Object {
+    "v": "Gardens by the Bay | TE | 22",
+    "value": 2,
+    "w": "Tanjong Rhu | TE | 23",
+  },
+  Object {
+    "v": "Tanjong Rhu | TE | 23",
+    "value": 2,
+    "w": "Gardens by the Bay | TE | 22",
+  },
+  Object {
+    "v": "Tanjong Rhu | TE | 23",
+    "value": 2,
+    "w": "Katong Park | TE | 24",
+  },
+  Object {
+    "v": "Katong Park | TE | 24",
+    "value": 2,
+    "w": "Tanjong Rhu | TE | 23",
+  },
+  Object {
+    "v": "Katong Park | TE | 24",
+    "value": 2,
+    "w": "Tanjong Katong | TE | 25",
+  },
+  Object {
+    "v": "Tanjong Katong | TE | 25",
+    "value": 2,
+    "w": "Katong Park | TE | 24",
+  },
+  Object {
+    "v": "Tanjong Katong | TE | 25",
+    "value": 2,
+    "w": "Marine Parade | TE | 26",
+  },
+  Object {
+    "v": "Marine Parade | TE | 26",
+    "value": 2,
+    "w": "Tanjong Katong | TE | 25",
+  },
+  Object {
+    "v": "Marine Parade | TE | 26",
+    "value": 2,
+    "w": "Marine Terrace | TE | 27",
+  },
+  Object {
+    "v": "Marine Terrace | TE | 27",
+    "value": 2,
+    "w": "Marine Parade | TE | 26",
+  },
+  Object {
+    "v": "Marine Terrace | TE | 27",
+    "value": 2,
+    "w": "Siglap | TE | 28",
+  },
+  Object {
+    "v": "Siglap | TE | 28",
+    "value": 2,
+    "w": "Marine Terrace | TE | 27",
+  },
+  Object {
+    "v": "Siglap | TE | 28",
+    "value": 2,
+    "w": "Bayshore | TE | 29",
+  },
+  Object {
+    "v": "Bayshore | TE | 29",
+    "value": 2,
+    "w": "Siglap | TE | 28",
+  },
+  Object {
+    "v": "Bayshore | TE | 29",
+    "value": 2,
+    "w": "Bedok South | TE | 30",
+  },
+  Object {
+    "v": "Bedok South | TE | 30",
+    "value": 2,
+    "w": "Bayshore | TE | 29",
+  },
+  Object {
+    "v": "Bedok South | TE | 30",
+    "value": 2,
+    "w": "Sungei Bedok | TE | 31",
+  },
+  Object {
+    "v": "Sungei Bedok | TE | 31",
+    "value": 2,
+    "w": "Bedok South | TE | 30",
+  },
+  Object {
+    "v": "HarbourFront | NE | 1",
+    "value": 2,
+    "w": "Outram Park | NE | 3",
+  },
+  Object {
+    "v": "Outram Park | NE | 3",
+    "value": 2,
+    "w": "HarbourFront | NE | 1",
+  },
+  Object {
+    "v": "Outram Park | NE | 3",
+    "value": 2,
+    "w": "Chinatown | NE | 4",
+  },
+  Object {
+    "v": "Chinatown | NE | 4",
+    "value": 2,
+    "w": "Outram Park | NE | 3",
+  },
+  Object {
+    "v": "Chinatown | NE | 4",
+    "value": 2,
+    "w": "Clarke Quay | NE | 5",
+  },
+  Object {
+    "v": "Clarke Quay | NE | 5",
+    "value": 2,
+    "w": "Chinatown | NE | 4",
+  },
+  Object {
+    "v": "Clarke Quay | NE | 5",
+    "value": 2,
+    "w": "Dhoby Ghaut | NE | 6",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NE | 6",
+    "value": 2,
+    "w": "Clarke Quay | NE | 5",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NE | 6",
+    "value": 2,
+    "w": "Little India | NE | 7",
+  },
+  Object {
+    "v": "Little India | NE | 7",
+    "value": 2,
+    "w": "Dhoby Ghaut | NE | 6",
+  },
+  Object {
+    "v": "Little India | NE | 7",
+    "value": 2,
+    "w": "Farrer Park | NE | 8",
+  },
+  Object {
+    "v": "Farrer Park | NE | 8",
+    "value": 2,
+    "w": "Little India | NE | 7",
+  },
+  Object {
+    "v": "Farrer Park | NE | 8",
+    "value": 2,
+    "w": "Boon Keng | NE | 9",
+  },
+  Object {
+    "v": "Boon Keng | NE | 9",
+    "value": 2,
+    "w": "Farrer Park | NE | 8",
+  },
+  Object {
+    "v": "Boon Keng | NE | 9",
+    "value": 2,
+    "w": "Potong Pasir | NE | 10",
+  },
+  Object {
+    "v": "Potong Pasir | NE | 10",
+    "value": 2,
+    "w": "Boon Keng | NE | 9",
+  },
+  Object {
+    "v": "Potong Pasir | NE | 10",
+    "value": 2,
+    "w": "Woodleigh | NE | 11",
+  },
+  Object {
+    "v": "Woodleigh | NE | 11",
+    "value": 2,
+    "w": "Potong Pasir | NE | 10",
+  },
+  Object {
+    "v": "Woodleigh | NE | 11",
+    "value": 2,
+    "w": "Serangoon | NE | 12",
+  },
+  Object {
+    "v": "Serangoon | NE | 12",
+    "value": 2,
+    "w": "Woodleigh | NE | 11",
+  },
+  Object {
+    "v": "Serangoon | NE | 12",
+    "value": 2,
+    "w": "Kovan | NE | 13",
+  },
+  Object {
+    "v": "Kovan | NE | 13",
+    "value": 2,
+    "w": "Serangoon | NE | 12",
+  },
+  Object {
+    "v": "Kovan | NE | 13",
+    "value": 2,
+    "w": "Hougang | NE | 14",
+  },
+  Object {
+    "v": "Hougang | NE | 14",
+    "value": 2,
+    "w": "Kovan | NE | 13",
+  },
+  Object {
+    "v": "Hougang | NE | 14",
+    "value": 2,
+    "w": "Buangkok | NE | 15",
+  },
+  Object {
+    "v": "Buangkok | NE | 15",
+    "value": 2,
+    "w": "Hougang | NE | 14",
+  },
+  Object {
+    "v": "Buangkok | NE | 15",
+    "value": 2,
+    "w": "Sengkang | NE | 16",
+  },
+  Object {
+    "v": "Sengkang | NE | 16",
+    "value": 2,
+    "w": "Buangkok | NE | 15",
+  },
+  Object {
+    "v": "Sengkang | NE | 16",
+    "value": 2,
+    "w": "Punggol | NE | 17",
+  },
+  Object {
+    "v": "Punggol | NE | 17",
+    "value": 2,
+    "w": "Sengkang | NE | 16",
+  },
+  Object {
+    "v": "Punggol | NE | 17",
+    "value": 2,
+    "w": "Punggol Coast | NE | 18",
+  },
+  Object {
+    "v": "Punggol Coast | NE | 18",
+    "value": 2,
+    "w": "Punggol | NE | 17",
+  },
+  Object {
+    "v": "Tengah Plantation | JE | 1",
+    "value": 2,
+    "w": "Tengah Park | JE | 2",
+  },
+  Object {
+    "v": "Tengah Park | JE | 2",
+    "value": 2,
+    "w": "Tengah Plantation | JE | 1",
+  },
+  Object {
+    "v": "Tengah Park | JE | 2",
+    "value": 2,
+    "w": "Bukit Batok West | JE | 3",
+  },
+  Object {
+    "v": "Bukit Batok West | JE | 3",
+    "value": 2,
+    "w": "Tengah Park | JE | 2",
+  },
+  Object {
+    "v": "Bukit Batok West | JE | 3",
+    "value": 2,
+    "w": "Toh Guan | JE | 4",
+  },
+  Object {
+    "v": "Toh Guan | JE | 4",
+    "value": 2,
+    "w": "Bukit Batok West | JE | 3",
+  },
+  Object {
+    "v": "Toh Guan | JE | 4",
+    "value": 2,
+    "w": "Jurong East | JE | 5",
+  },
+  Object {
+    "v": "Jurong East | JE | 5",
+    "value": 2,
+    "w": "Toh Guan | JE | 4",
+  },
+  Object {
+    "v": "Jurong East | JE | 5",
+    "value": 2,
+    "w": "Jurong Town Hall | JE | 6",
+  },
+  Object {
+    "v": "Jurong Town Hall | JE | 6",
+    "value": 2,
+    "w": "Jurong East | JE | 5",
+  },
+  Object {
+    "v": "Jurong Town Hall | JE | 6",
+    "value": 2,
+    "w": "Pandan Reservoir | JE | 7",
+  },
+  Object {
+    "v": "Pandan Reservoir | JE | 7",
+    "value": 2,
+    "w": "Jurong Town Hall | JE | 6",
+  },
+  Object {
+    "v": "Tanah Merah | CG | 0",
+    "value": 2,
+    "w": "Expo | CG | 1",
+  },
+  Object {
+    "v": "Expo | CG | 1",
+    "value": 2,
+    "w": "Tanah Merah | CG | 0",
+  },
+  Object {
+    "v": "Expo | CG | 1",
+    "value": 2,
+    "w": "Changi Airport | CG | 2",
+  },
+  Object {
+    "v": "Changi Airport | CG | 2",
+    "value": 2,
+    "w": "Expo | CG | 1",
+  },
+  Object {
+    "v": "Sengkang | SW | 0",
+    "value": 2,
+    "w": "Cheng Lim | SW | 1",
+  },
+  Object {
+    "v": "Cheng Lim | SW | 1",
+    "value": 2,
+    "w": "Sengkang | SW | 0",
+  },
+  Object {
+    "v": "Cheng Lim | SW | 1",
+    "value": 2,
+    "w": "Farmway | SW | 2",
+  },
+  Object {
+    "v": "Farmway | SW | 2",
+    "value": 2,
+    "w": "Cheng Lim | SW | 1",
+  },
+  Object {
+    "v": "Farmway | SW | 2",
+    "value": 2,
+    "w": "Kupang | SW | 3",
+  },
+  Object {
+    "v": "Kupang | SW | 3",
+    "value": 2,
+    "w": "Farmway | SW | 2",
+  },
+  Object {
+    "v": "Kupang | SW | 3",
+    "value": 2,
+    "w": "Thanggam | SW | 4",
+  },
+  Object {
+    "v": "Thanggam | SW | 4",
+    "value": 2,
+    "w": "Kupang | SW | 3",
+  },
+  Object {
+    "v": "Thanggam | SW | 4",
+    "value": 2,
+    "w": "Fernvale | SW | 5",
+  },
+  Object {
+    "v": "Fernvale | SW | 5",
+    "value": 2,
+    "w": "Thanggam | SW | 4",
+  },
+  Object {
+    "v": "Fernvale | SW | 5",
+    "value": 2,
+    "w": "Layar | SW | 6",
+  },
+  Object {
+    "v": "Layar | SW | 6",
+    "value": 2,
+    "w": "Fernvale | SW | 5",
+  },
+  Object {
+    "v": "Layar | SW | 6",
+    "value": 2,
+    "w": "Tongkang | SW | 7",
+  },
+  Object {
+    "v": "Tongkang | SW | 7",
+    "value": 2,
+    "w": "Layar | SW | 6",
+  },
+  Object {
+    "v": "Tongkang | SW | 7",
+    "value": 2,
+    "w": "Renjong | SW | 8",
+  },
+  Object {
+    "v": "Renjong | SW | 8",
+    "value": 2,
+    "w": "Tongkang | SW | 7",
+  },
+  Object {
+    "v": "Renjong | SW | 8",
+    "value": 2,
+    "w": "Sengkang | SW | 9",
+  },
+  Object {
+    "v": "Sengkang | SW | 9",
+    "value": 2,
+    "w": "Renjong | SW | 8",
+  },
+  Object {
+    "v": "Punggol | PE | 0",
+    "value": 2,
+    "w": "Cove | PE | 1",
+  },
+  Object {
+    "v": "Cove | PE | 1",
+    "value": 2,
+    "w": "Punggol | PE | 0",
+  },
+  Object {
+    "v": "Cove | PE | 1",
+    "value": 2,
+    "w": "Meridian | PE | 2",
+  },
+  Object {
+    "v": "Meridian | PE | 2",
+    "value": 2,
+    "w": "Cove | PE | 1",
+  },
+  Object {
+    "v": "Meridian | PE | 2",
+    "value": 2,
+    "w": "Coral Edge | PE | 3",
+  },
+  Object {
+    "v": "Coral Edge | PE | 3",
+    "value": 2,
+    "w": "Meridian | PE | 2",
+  },
+  Object {
+    "v": "Coral Edge | PE | 3",
+    "value": 2,
+    "w": "Riviera | PE | 4",
+  },
+  Object {
+    "v": "Riviera | PE | 4",
+    "value": 2,
+    "w": "Coral Edge | PE | 3",
+  },
+  Object {
+    "v": "Riviera | PE | 4",
+    "value": 2,
+    "w": "Kadaloor | PE | 5",
+  },
+  Object {
+    "v": "Kadaloor | PE | 5",
+    "value": 2,
+    "w": "Riviera | PE | 4",
+  },
+  Object {
+    "v": "Kadaloor | PE | 5",
+    "value": 2,
+    "w": "Oasis | PE | 6",
+  },
+  Object {
+    "v": "Oasis | PE | 6",
+    "value": 2,
+    "w": "Kadaloor | PE | 5",
+  },
+  Object {
+    "v": "Oasis | PE | 6",
+    "value": 2,
+    "w": "Damai | PE | 7",
+  },
+  Object {
+    "v": "Damai | PE | 7",
+    "value": 2,
+    "w": "Oasis | PE | 6",
+  },
+  Object {
+    "v": "Damai | PE | 7",
+    "value": 2,
+    "w": "Punggol | PE | 8",
+  },
+  Object {
+    "v": "Punggol | PE | 8",
+    "value": 2,
+    "w": "Damai | PE | 7",
+  },
+  Object {
+    "v": "Gek Poh | JW | 1",
+    "value": 2,
+    "w": "Tawas | JW | 2",
+  },
+  Object {
+    "v": "Tawas | JW | 2",
+    "value": 2,
+    "w": "Gek Poh | JW | 1",
+  },
+  Object {
+    "v": "Tawas | JW | 2",
+    "value": 2,
+    "w": "Nanyang Gateway | JW | 3",
+  },
+  Object {
+    "v": "Nanyang Gateway | JW | 3",
+    "value": 2,
+    "w": "Tawas | JW | 2",
+  },
+  Object {
+    "v": "Nanyang Gateway | JW | 3",
+    "value": 2,
+    "w": "Nanyang Crescent | JW | 4",
+  },
+  Object {
+    "v": "Nanyang Crescent | JW | 4",
+    "value": 2,
+    "w": "Nanyang Gateway | JW | 3",
+  },
+  Object {
+    "v": "Nanyang Crescent | JW | 4",
+    "value": 2,
+    "w": "Peng Kang Hill | JW | 5",
+  },
+  Object {
+    "v": "Peng Kang Hill | JW | 5",
+    "value": 2,
+    "w": "Nanyang Crescent | JW | 4",
+  },
+  Object {
+    "v": "Punggol | PW | 0",
+    "value": 2,
+    "w": "Sam Kee | PW | 1",
+  },
+  Object {
+    "v": "Sam Kee | PW | 1",
+    "value": 2,
+    "w": "Punggol | PW | 0",
+  },
+  Object {
+    "v": "Sam Kee | PW | 1",
+    "value": 2,
+    "w": "Teck Lee | PW | 2",
+  },
+  Object {
+    "v": "Teck Lee | PW | 2",
+    "value": 2,
+    "w": "Sam Kee | PW | 1",
+  },
+  Object {
+    "v": "Teck Lee | PW | 2",
+    "value": 2,
+    "w": "Punggol Point | PW | 3",
+  },
+  Object {
+    "v": "Punggol Point | PW | 3",
+    "value": 2,
+    "w": "Teck Lee | PW | 2",
+  },
+  Object {
+    "v": "Punggol Point | PW | 3",
+    "value": 2,
+    "w": "Samudera | PW | 4",
+  },
+  Object {
+    "v": "Samudera | PW | 4",
+    "value": 2,
+    "w": "Punggol Point | PW | 3",
+  },
+  Object {
+    "v": "Samudera | PW | 4",
+    "value": 2,
+    "w": "Nibong | PW | 5",
+  },
+  Object {
+    "v": "Nibong | PW | 5",
+    "value": 2,
+    "w": "Samudera | PW | 4",
+  },
+  Object {
+    "v": "Nibong | PW | 5",
+    "value": 2,
+    "w": "Sumang | PW | 6",
+  },
+  Object {
+    "v": "Sumang | PW | 6",
+    "value": 2,
+    "w": "Nibong | PW | 5",
+  },
+  Object {
+    "v": "Sumang | PW | 6",
+    "value": 2,
+    "w": "Soo Teck | PW | 7",
+  },
+  Object {
+    "v": "Soo Teck | PW | 7",
+    "value": 2,
+    "w": "Sumang | PW | 6",
+  },
+  Object {
+    "v": "Soo Teck | PW | 7",
+    "value": 2,
+    "w": "Punggol | PW | 8",
+  },
+  Object {
+    "v": "Punggol | PW | 8",
+    "value": 2,
+    "w": "Soo Teck | PW | 7",
+  },
+  Object {
+    "v": "Bartley | CC | 12",
+    "value": 13,
+    "w": "Bartley | CE | 12",
+  },
+  Object {
+    "v": "Bartley | CE | 12",
+    "value": 13,
+    "w": "Bartley | CC | 12",
+  },
+  Object {
+    "v": "Bayfront | CE | 3",
+    "value": 13,
+    "w": "Bayfront | DT | 16",
+  },
+  Object {
+    "v": "Bayfront | DT | 16",
+    "value": 13,
+    "w": "Bayfront | CE | 3",
+  },
+  Object {
+    "v": "Bishan | NS | 17",
+    "value": 13,
+    "w": "Bishan | CC | 15",
+  },
+  Object {
+    "v": "Bishan | CC | 15",
+    "value": 13,
+    "w": "Bishan | NS | 17",
+  },
+  Object {
+    "v": "Bishan | NS | 17",
+    "value": 13,
+    "w": "Bishan | CE | 15",
+  },
+  Object {
+    "v": "Bishan | CE | 15",
+    "value": 13,
+    "w": "Bishan | NS | 17",
+  },
+  Object {
+    "v": "Bishan | CC | 15",
+    "value": 13,
+    "w": "Bishan | CE | 15",
+  },
+  Object {
+    "v": "Bishan | CE | 15",
+    "value": 13,
+    "w": "Bishan | CC | 15",
+  },
+  Object {
+    "v": "Boon Lay | EW | 27",
+    "value": 13,
+    "w": "Boon Lay | JS | 8",
+  },
+  Object {
+    "v": "Boon Lay | JS | 8",
+    "value": 13,
+    "w": "Boon Lay | EW | 27",
+  },
+  Object {
+    "v": "Botanic Gardens | CC | 19",
+    "value": 13,
+    "w": "Botanic Gardens | CE | 19",
+  },
+  Object {
+    "v": "Botanic Gardens | CE | 19",
+    "value": 13,
+    "w": "Botanic Gardens | CC | 19",
+  },
+  Object {
+    "v": "Botanic Gardens | CC | 19",
+    "value": 13,
+    "w": "Botanic Gardens | DT | 9",
+  },
+  Object {
+    "v": "Botanic Gardens | DT | 9",
+    "value": 13,
+    "w": "Botanic Gardens | CC | 19",
+  },
+  Object {
+    "v": "Botanic Gardens | CE | 19",
+    "value": 13,
+    "w": "Botanic Gardens | DT | 9",
+  },
+  Object {
+    "v": "Botanic Gardens | DT | 9",
+    "value": 13,
+    "w": "Botanic Gardens | CE | 19",
+  },
+  Object {
+    "v": "Bugis | EW | 12",
+    "value": 13,
+    "w": "Bugis | DT | 14",
+  },
+  Object {
+    "v": "Bugis | DT | 14",
+    "value": 13,
+    "w": "Bugis | EW | 12",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 6",
+    "value": 0,
+    "w": "Bukit Panjang | BP | 14",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 14",
+    "value": 0,
+    "w": "Bukit Panjang | BP | 6",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 6",
+    "value": 13,
+    "w": "Bukit Panjang | DT | 1",
+  },
+  Object {
+    "v": "Bukit Panjang | DT | 1",
+    "value": 13,
+    "w": "Bukit Panjang | BP | 6",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 14",
+    "value": 13,
+    "w": "Bukit Panjang | DT | 1",
+  },
+  Object {
+    "v": "Bukit Panjang | DT | 1",
+    "value": 13,
+    "w": "Bukit Panjang | BP | 14",
+  },
+  Object {
+    "v": "Buona Vista | EW | 21",
+    "value": 13,
+    "w": "Buona Vista | CC | 22",
+  },
+  Object {
+    "v": "Buona Vista | CC | 22",
+    "value": 13,
+    "w": "Buona Vista | EW | 21",
+  },
+  Object {
+    "v": "Buona Vista | EW | 21",
+    "value": 13,
+    "w": "Buona Vista | CE | 22",
+  },
+  Object {
+    "v": "Buona Vista | CE | 22",
+    "value": 13,
+    "w": "Buona Vista | EW | 21",
+  },
+  Object {
+    "v": "Buona Vista | CC | 22",
+    "value": 13,
+    "w": "Buona Vista | CE | 22",
+  },
+  Object {
+    "v": "Buona Vista | CE | 22",
+    "value": 13,
+    "w": "Buona Vista | CC | 22",
+  },
+  Object {
+    "v": "Caldecott | CC | 17",
+    "value": 13,
+    "w": "Caldecott | CE | 17",
+  },
+  Object {
+    "v": "Caldecott | CE | 17",
+    "value": 13,
+    "w": "Caldecott | CC | 17",
+  },
+  Object {
+    "v": "Caldecott | CC | 17",
+    "value": 13,
+    "w": "Caldecott | TE | 9",
+  },
+  Object {
+    "v": "Caldecott | TE | 9",
+    "value": 13,
+    "w": "Caldecott | CC | 17",
+  },
+  Object {
+    "v": "Caldecott | CE | 17",
+    "value": 13,
+    "w": "Caldecott | TE | 9",
+  },
+  Object {
+    "v": "Caldecott | TE | 9",
+    "value": 13,
+    "w": "Caldecott | CE | 17",
+  },
+  Object {
+    "v": "Cantonment | CC | 31",
+    "value": 13,
+    "w": "Cantonment | CE | 31",
+  },
+  Object {
+    "v": "Cantonment | CE | 31",
+    "value": 13,
+    "w": "Cantonment | CC | 31",
+  },
+  Object {
+    "v": "Chinatown | NE | 4",
+    "value": 13,
+    "w": "Chinatown | DT | 19",
+  },
+  Object {
+    "v": "Chinatown | DT | 19",
+    "value": 13,
+    "w": "Chinatown | NE | 4",
+  },
+  Object {
+    "v": "Choa Chu Kang | NS | 4",
+    "value": 13,
+    "w": "Choa Chu Kang | JS | 1",
+  },
+  Object {
+    "v": "Choa Chu Kang | JS | 1",
+    "value": 13,
+    "w": "Choa Chu Kang | NS | 4",
+  },
+  Object {
+    "v": "Choa Chu Kang | NS | 4",
+    "value": 13,
+    "w": "Choa Chu Kang | BP | 1",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 1",
+    "value": 13,
+    "w": "Choa Chu Kang | NS | 4",
+  },
+  Object {
+    "v": "Choa Chu Kang | NS | 4",
+    "value": 13,
+    "w": "Choa Chu Kang | BP | 19",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 19",
+    "value": 13,
+    "w": "Choa Chu Kang | NS | 4",
+  },
+  Object {
+    "v": "Choa Chu Kang | JS | 1",
+    "value": 13,
+    "w": "Choa Chu Kang | BP | 1",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 1",
+    "value": 13,
+    "w": "Choa Chu Kang | JS | 1",
+  },
+  Object {
+    "v": "Choa Chu Kang | JS | 1",
+    "value": 13,
+    "w": "Choa Chu Kang | BP | 19",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 19",
+    "value": 13,
+    "w": "Choa Chu Kang | JS | 1",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 1",
+    "value": 0,
+    "w": "Choa Chu Kang | BP | 19",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 19",
+    "value": 0,
+    "w": "Choa Chu Kang | BP | 1",
+  },
+  Object {
+    "v": "City Hall | NS | 25",
+    "value": 13,
+    "w": "City Hall | EW | 13",
+  },
+  Object {
+    "v": "City Hall | EW | 13",
+    "value": 13,
+    "w": "City Hall | NS | 25",
+  },
+  Object {
+    "v": "Dakota | CC | 8",
+    "value": 13,
+    "w": "Dakota | CE | 8",
+  },
+  Object {
+    "v": "Dakota | CE | 8",
+    "value": 13,
+    "w": "Dakota | CC | 8",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NS | 24",
+    "value": 13,
+    "w": "Dhoby Ghaut | NE | 6",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NE | 6",
+    "value": 13,
+    "w": "Dhoby Ghaut | NS | 24",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NS | 24",
+    "value": 13,
+    "w": "Dhoby Ghaut | CC | 1",
+  },
+  Object {
+    "v": "Dhoby Ghaut | CC | 1",
+    "value": 13,
+    "w": "Dhoby Ghaut | NS | 24",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NE | 6",
+    "value": 13,
+    "w": "Dhoby Ghaut | CC | 1",
+  },
+  Object {
+    "v": "Dhoby Ghaut | CC | 1",
+    "value": 13,
+    "w": "Dhoby Ghaut | NE | 6",
+  },
+  Object {
+    "v": "Expo | CG | 1",
+    "value": 13,
+    "w": "Expo | DT | 35",
+  },
+  Object {
+    "v": "Expo | DT | 35",
+    "value": 13,
+    "w": "Expo | CG | 1",
+  },
+  Object {
+    "v": "Farrer Road | CC | 20",
+    "value": 13,
+    "w": "Farrer Road | CE | 20",
+  },
+  Object {
+    "v": "Farrer Road | CE | 20",
+    "value": 13,
+    "w": "Farrer Road | CC | 20",
+  },
+  Object {
+    "v": "HarbourFront | NE | 1",
+    "value": 13,
+    "w": "HarbourFront | CC | 29",
+  },
+  Object {
+    "v": "HarbourFront | CC | 29",
+    "value": 13,
+    "w": "HarbourFront | NE | 1",
+  },
+  Object {
+    "v": "HarbourFront | NE | 1",
+    "value": 13,
+    "w": "HarbourFront | CE | 29",
+  },
+  Object {
+    "v": "HarbourFront | CE | 29",
+    "value": 13,
+    "w": "HarbourFront | NE | 1",
+  },
+  Object {
+    "v": "HarbourFront | CC | 29",
+    "value": 13,
+    "w": "HarbourFront | CE | 29",
+  },
+  Object {
+    "v": "HarbourFront | CE | 29",
+    "value": 13,
+    "w": "HarbourFront | CC | 29",
+  },
+  Object {
+    "v": "Haw Par Villa | CC | 25",
+    "value": 13,
+    "w": "Haw Par Villa | CE | 25",
+  },
+  Object {
+    "v": "Haw Par Villa | CE | 25",
+    "value": 13,
+    "w": "Haw Par Villa | CC | 25",
+  },
+  Object {
+    "v": "Holland Village | CC | 21",
+    "value": 13,
+    "w": "Holland Village | CE | 21",
+  },
+  Object {
+    "v": "Holland Village | CE | 21",
+    "value": 13,
+    "w": "Holland Village | CC | 21",
+  },
+  Object {
+    "v": "Jurong East | NS | 1",
+    "value": 13,
+    "w": "Jurong East | EW | 24",
+  },
+  Object {
+    "v": "Jurong East | EW | 24",
+    "value": 13,
+    "w": "Jurong East | NS | 1",
+  },
+  Object {
+    "v": "Jurong East | NS | 1",
+    "value": 13,
+    "w": "Jurong East | JE | 5",
+  },
+  Object {
+    "v": "Jurong East | JE | 5",
+    "value": 13,
+    "w": "Jurong East | NS | 1",
+  },
+  Object {
+    "v": "Jurong East | EW | 24",
+    "value": 13,
+    "w": "Jurong East | JE | 5",
+  },
+  Object {
+    "v": "Jurong East | JE | 5",
+    "value": 13,
+    "w": "Jurong East | EW | 24",
+  },
+  Object {
+    "v": "Kent Ridge | CC | 24",
+    "value": 13,
+    "w": "Kent Ridge | CE | 24",
+  },
+  Object {
+    "v": "Kent Ridge | CE | 24",
+    "value": 13,
+    "w": "Kent Ridge | CC | 24",
+  },
+  Object {
+    "v": "Keppel | CC | 30",
+    "value": 13,
+    "w": "Keppel | CE | 30",
+  },
+  Object {
+    "v": "Keppel | CE | 30",
+    "value": 13,
+    "w": "Keppel | CC | 30",
+  },
+  Object {
+    "v": "Labrador Park | CC | 27",
+    "value": 13,
+    "w": "Labrador Park | CE | 27",
+  },
+  Object {
+    "v": "Labrador Park | CE | 27",
+    "value": 13,
+    "w": "Labrador Park | CC | 27",
+  },
+  Object {
+    "v": "Little India | NE | 7",
+    "value": 13,
+    "w": "Little India | DT | 12",
+  },
+  Object {
+    "v": "Little India | DT | 12",
+    "value": 13,
+    "w": "Little India | NE | 7",
+  },
+  Object {
+    "v": "Lorong Chuan | CC | 14",
+    "value": 13,
+    "w": "Lorong Chuan | CE | 14",
+  },
+  Object {
+    "v": "Lorong Chuan | CE | 14",
+    "value": 13,
+    "w": "Lorong Chuan | CC | 14",
+  },
+  Object {
+    "v": "MacPherson | CC | 10",
+    "value": 13,
+    "w": "MacPherson | CE | 10",
+  },
+  Object {
+    "v": "MacPherson | CE | 10",
+    "value": 13,
+    "w": "MacPherson | CC | 10",
+  },
+  Object {
+    "v": "MacPherson | CC | 10",
+    "value": 13,
+    "w": "MacPherson | DT | 26",
+  },
+  Object {
+    "v": "MacPherson | DT | 26",
+    "value": 13,
+    "w": "MacPherson | CC | 10",
+  },
+  Object {
+    "v": "MacPherson | CE | 10",
+    "value": 13,
+    "w": "MacPherson | DT | 26",
+  },
+  Object {
+    "v": "MacPherson | DT | 26",
+    "value": 13,
+    "w": "MacPherson | CE | 10",
+  },
+  Object {
+    "v": "Marina Bay | CE | 2",
+    "value": 0,
+    "w": "Marina Bay | CE | 33",
+  },
+  Object {
+    "v": "Marina Bay | CE | 33",
+    "value": 0,
+    "w": "Marina Bay | CE | 2",
+  },
+  Object {
+    "v": "Marina Bay | CE | 2",
+    "value": 13,
+    "w": "Marina Bay | NS | 27",
+  },
+  Object {
+    "v": "Marina Bay | NS | 27",
+    "value": 13,
+    "w": "Marina Bay | CE | 2",
+  },
+  Object {
+    "v": "Marina Bay | CE | 2",
+    "value": 13,
+    "w": "Marina Bay | TE | 20",
+  },
+  Object {
+    "v": "Marina Bay | TE | 20",
+    "value": 13,
+    "w": "Marina Bay | CE | 2",
+  },
+  Object {
+    "v": "Marina Bay | CE | 2",
+    "value": 13,
+    "w": "Marina Bay | CC | 33",
+  },
+  Object {
+    "v": "Marina Bay | CC | 33",
+    "value": 13,
+    "w": "Marina Bay | CE | 2",
+  },
+  Object {
+    "v": "Marina Bay | CE | 33",
+    "value": 13,
+    "w": "Marina Bay | NS | 27",
+  },
+  Object {
+    "v": "Marina Bay | NS | 27",
+    "value": 13,
+    "w": "Marina Bay | CE | 33",
+  },
+  Object {
+    "v": "Marina Bay | CE | 33",
+    "value": 13,
+    "w": "Marina Bay | TE | 20",
+  },
+  Object {
+    "v": "Marina Bay | TE | 20",
+    "value": 13,
+    "w": "Marina Bay | CE | 33",
+  },
+  Object {
+    "v": "Marina Bay | CE | 33",
+    "value": 13,
+    "w": "Marina Bay | CC | 33",
+  },
+  Object {
+    "v": "Marina Bay | CC | 33",
+    "value": 13,
+    "w": "Marina Bay | CE | 33",
+  },
+  Object {
+    "v": "Marina Bay | NS | 27",
+    "value": 13,
+    "w": "Marina Bay | TE | 20",
+  },
+  Object {
+    "v": "Marina Bay | TE | 20",
+    "value": 13,
+    "w": "Marina Bay | NS | 27",
+  },
+  Object {
+    "v": "Marina Bay | NS | 27",
+    "value": 13,
+    "w": "Marina Bay | CC | 33",
+  },
+  Object {
+    "v": "Marina Bay | CC | 33",
+    "value": 13,
+    "w": "Marina Bay | NS | 27",
+  },
+  Object {
+    "v": "Marina Bay | TE | 20",
+    "value": 13,
+    "w": "Marina Bay | CC | 33",
+  },
+  Object {
+    "v": "Marina Bay | CC | 33",
+    "value": 13,
+    "w": "Marina Bay | TE | 20",
+  },
+  Object {
+    "v": "Marymount | CC | 16",
+    "value": 13,
+    "w": "Marymount | CE | 16",
+  },
+  Object {
+    "v": "Marymount | CE | 16",
+    "value": 13,
+    "w": "Marymount | CC | 16",
+  },
+  Object {
+    "v": "Mountbatten | CC | 7",
+    "value": 13,
+    "w": "Mountbatten | CE | 7",
+  },
+  Object {
+    "v": "Mountbatten | CE | 7",
+    "value": 13,
+    "w": "Mountbatten | CC | 7",
+  },
+  Object {
+    "v": "Newton | NS | 21",
+    "value": 13,
+    "w": "Newton | DT | 11",
+  },
+  Object {
+    "v": "Newton | DT | 11",
+    "value": 13,
+    "w": "Newton | NS | 21",
+  },
+  Object {
+    "v": "Nicoll Highway | CC | 5",
+    "value": 13,
+    "w": "Nicoll Highway | CE | 5",
+  },
+  Object {
+    "v": "Nicoll Highway | CE | 5",
+    "value": 13,
+    "w": "Nicoll Highway | CC | 5",
+  },
+  Object {
+    "v": "one-north | CC | 23",
+    "value": 13,
+    "w": "one-north | CE | 23",
+  },
+  Object {
+    "v": "one-north | CE | 23",
+    "value": 13,
+    "w": "one-north | CC | 23",
+  },
+  Object {
+    "v": "Orchard | NS | 22",
+    "value": 13,
+    "w": "Orchard | TE | 14",
+  },
+  Object {
+    "v": "Orchard | TE | 14",
+    "value": 13,
+    "w": "Orchard | NS | 22",
+  },
+  Object {
+    "v": "Outram Park | EW | 16",
+    "value": 13,
+    "w": "Outram Park | NE | 3",
+  },
+  Object {
+    "v": "Outram Park | NE | 3",
+    "value": 13,
+    "w": "Outram Park | EW | 16",
+  },
+  Object {
+    "v": "Outram Park | EW | 16",
+    "value": 13,
+    "w": "Outram Park | TE | 17",
+  },
+  Object {
+    "v": "Outram Park | TE | 17",
+    "value": 13,
+    "w": "Outram Park | EW | 16",
+  },
+  Object {
+    "v": "Outram Park | NE | 3",
+    "value": 13,
+    "w": "Outram Park | TE | 17",
+  },
+  Object {
+    "v": "Outram Park | TE | 17",
+    "value": 13,
+    "w": "Outram Park | NE | 3",
+  },
+  Object {
+    "v": "Pasir Panjang | CC | 26",
+    "value": 13,
+    "w": "Pasir Panjang | CE | 26",
+  },
+  Object {
+    "v": "Pasir Panjang | CE | 26",
+    "value": 13,
+    "w": "Pasir Panjang | CC | 26",
+  },
+  Object {
+    "v": "Paya Lebar | EW | 8",
+    "value": 13,
+    "w": "Paya Lebar | CC | 9",
+  },
+  Object {
+    "v": "Paya Lebar | CC | 9",
+    "value": 13,
+    "w": "Paya Lebar | EW | 8",
+  },
+  Object {
+    "v": "Paya Lebar | EW | 8",
+    "value": 13,
+    "w": "Paya Lebar | CE | 9",
+  },
+  Object {
+    "v": "Paya Lebar | CE | 9",
+    "value": 13,
+    "w": "Paya Lebar | EW | 8",
+  },
+  Object {
+    "v": "Paya Lebar | CC | 9",
+    "value": 13,
+    "w": "Paya Lebar | CE | 9",
+  },
+  Object {
+    "v": "Paya Lebar | CE | 9",
+    "value": 13,
+    "w": "Paya Lebar | CC | 9",
+  },
+  Object {
+    "v": "Prince Edward Road | CC | 32",
+    "value": 13,
+    "w": "Prince Edward Road | CE | 32",
+  },
+  Object {
+    "v": "Prince Edward Road | CE | 32",
+    "value": 13,
+    "w": "Prince Edward Road | CC | 32",
+  },
+  Object {
+    "v": "Promenade | CC | 4",
+    "value": 13,
+    "w": "Promenade | CE | 4",
+  },
+  Object {
+    "v": "Promenade | CE | 4",
+    "value": 13,
+    "w": "Promenade | CC | 4",
+  },
+  Object {
+    "v": "Promenade | CC | 4",
+    "value": 13,
+    "w": "Promenade | DT | 15",
+  },
+  Object {
+    "v": "Promenade | DT | 15",
+    "value": 13,
+    "w": "Promenade | CC | 4",
+  },
+  Object {
+    "v": "Promenade | CE | 4",
+    "value": 13,
+    "w": "Promenade | DT | 15",
+  },
+  Object {
+    "v": "Promenade | DT | 15",
+    "value": 13,
+    "w": "Promenade | CE | 4",
+  },
+  Object {
+    "v": "Punggol | NE | 17",
+    "value": 13,
+    "w": "Punggol | PE | 0",
+  },
+  Object {
+    "v": "Punggol | PE | 0",
+    "value": 13,
+    "w": "Punggol | NE | 17",
+  },
+  Object {
+    "v": "Punggol | NE | 17",
+    "value": 13,
+    "w": "Punggol | PE | 8",
+  },
+  Object {
+    "v": "Punggol | PE | 8",
+    "value": 13,
+    "w": "Punggol | NE | 17",
+  },
+  Object {
+    "v": "Punggol | NE | 17",
+    "value": 13,
+    "w": "Punggol | PW | 0",
+  },
+  Object {
+    "v": "Punggol | PW | 0",
+    "value": 13,
+    "w": "Punggol | NE | 17",
+  },
+  Object {
+    "v": "Punggol | NE | 17",
+    "value": 13,
+    "w": "Punggol | PW | 8",
+  },
+  Object {
+    "v": "Punggol | PW | 8",
+    "value": 13,
+    "w": "Punggol | NE | 17",
+  },
+  Object {
+    "v": "Punggol | PE | 0",
+    "value": 0,
+    "w": "Punggol | PE | 8",
+  },
+  Object {
+    "v": "Punggol | PE | 8",
+    "value": 0,
+    "w": "Punggol | PE | 0",
+  },
+  Object {
+    "v": "Punggol | PE | 0",
+    "value": 13,
+    "w": "Punggol | PW | 0",
+  },
+  Object {
+    "v": "Punggol | PW | 0",
+    "value": 13,
+    "w": "Punggol | PE | 0",
+  },
+  Object {
+    "v": "Punggol | PE | 0",
+    "value": 13,
+    "w": "Punggol | PW | 8",
+  },
+  Object {
+    "v": "Punggol | PW | 8",
+    "value": 13,
+    "w": "Punggol | PE | 0",
+  },
+  Object {
+    "v": "Punggol | PE | 8",
+    "value": 13,
+    "w": "Punggol | PW | 0",
+  },
+  Object {
+    "v": "Punggol | PW | 0",
+    "value": 13,
+    "w": "Punggol | PE | 8",
+  },
+  Object {
+    "v": "Punggol | PE | 8",
+    "value": 13,
+    "w": "Punggol | PW | 8",
+  },
+  Object {
+    "v": "Punggol | PW | 8",
+    "value": 13,
+    "w": "Punggol | PE | 8",
+  },
+  Object {
+    "v": "Punggol | PW | 0",
+    "value": 0,
+    "w": "Punggol | PW | 8",
+  },
+  Object {
+    "v": "Punggol | PW | 8",
+    "value": 0,
+    "w": "Punggol | PW | 0",
+  },
+  Object {
+    "v": "Raffles Place | NS | 26",
+    "value": 13,
+    "w": "Raffles Place | EW | 14",
+  },
+  Object {
+    "v": "Raffles Place | EW | 14",
+    "value": 13,
+    "w": "Raffles Place | NS | 26",
+  },
+  Object {
+    "v": "Sengkang | NE | 16",
+    "value": 13,
+    "w": "Sengkang | SE | 0",
+  },
+  Object {
+    "v": "Sengkang | SE | 0",
+    "value": 13,
+    "w": "Sengkang | NE | 16",
+  },
+  Object {
+    "v": "Sengkang | NE | 16",
+    "value": 13,
+    "w": "Sengkang | SE | 6",
+  },
+  Object {
+    "v": "Sengkang | SE | 6",
+    "value": 13,
+    "w": "Sengkang | NE | 16",
+  },
+  Object {
+    "v": "Sengkang | NE | 16",
+    "value": 13,
+    "w": "Sengkang | SW | 0",
+  },
+  Object {
+    "v": "Sengkang | SW | 0",
+    "value": 13,
+    "w": "Sengkang | NE | 16",
+  },
+  Object {
+    "v": "Sengkang | NE | 16",
+    "value": 13,
+    "w": "Sengkang | SW | 9",
+  },
+  Object {
+    "v": "Sengkang | SW | 9",
+    "value": 13,
+    "w": "Sengkang | NE | 16",
+  },
+  Object {
+    "v": "Sengkang | SE | 0",
+    "value": 0,
+    "w": "Sengkang | SE | 6",
+  },
+  Object {
+    "v": "Sengkang | SE | 6",
+    "value": 0,
+    "w": "Sengkang | SE | 0",
+  },
+  Object {
+    "v": "Sengkang | SE | 0",
+    "value": 13,
+    "w": "Sengkang | SW | 0",
+  },
+  Object {
+    "v": "Sengkang | SW | 0",
+    "value": 13,
+    "w": "Sengkang | SE | 0",
+  },
+  Object {
+    "v": "Sengkang | SE | 0",
+    "value": 13,
+    "w": "Sengkang | SW | 9",
+  },
+  Object {
+    "v": "Sengkang | SW | 9",
+    "value": 13,
+    "w": "Sengkang | SE | 0",
+  },
+  Object {
+    "v": "Sengkang | SE | 6",
+    "value": 13,
+    "w": "Sengkang | SW | 0",
+  },
+  Object {
+    "v": "Sengkang | SW | 0",
+    "value": 13,
+    "w": "Sengkang | SE | 6",
+  },
+  Object {
+    "v": "Sengkang | SE | 6",
+    "value": 13,
+    "w": "Sengkang | SW | 9",
+  },
+  Object {
+    "v": "Sengkang | SW | 9",
+    "value": 13,
+    "w": "Sengkang | SE | 6",
+  },
+  Object {
+    "v": "Sengkang | SW | 0",
+    "value": 0,
+    "w": "Sengkang | SW | 9",
+  },
+  Object {
+    "v": "Sengkang | SW | 9",
+    "value": 0,
+    "w": "Sengkang | SW | 0",
+  },
+  Object {
+    "v": "Serangoon | NE | 12",
+    "value": 13,
+    "w": "Serangoon | CC | 13",
+  },
+  Object {
+    "v": "Serangoon | CC | 13",
+    "value": 13,
+    "w": "Serangoon | NE | 12",
+  },
+  Object {
+    "v": "Serangoon | NE | 12",
+    "value": 13,
+    "w": "Serangoon | CE | 13",
+  },
+  Object {
+    "v": "Serangoon | CE | 13",
+    "value": 13,
+    "w": "Serangoon | NE | 12",
+  },
+  Object {
+    "v": "Serangoon | CC | 13",
+    "value": 13,
+    "w": "Serangoon | CE | 13",
+  },
+  Object {
+    "v": "Serangoon | CE | 13",
+    "value": 13,
+    "w": "Serangoon | CC | 13",
+  },
+  Object {
+    "v": "Stadium | CC | 6",
+    "value": 13,
+    "w": "Stadium | CE | 6",
+  },
+  Object {
+    "v": "Stadium | CE | 6",
+    "value": 13,
+    "w": "Stadium | CC | 6",
+  },
+  Object {
+    "v": "Stevens | DT | 10",
+    "value": 13,
+    "w": "Stevens | TE | 11",
+  },
+  Object {
+    "v": "Stevens | TE | 11",
+    "value": 13,
+    "w": "Stevens | DT | 10",
+  },
+  Object {
+    "v": "Sungei Bedok | DT | 37",
+    "value": 13,
+    "w": "Sungei Bedok | TE | 31",
+  },
+  Object {
+    "v": "Sungei Bedok | TE | 31",
+    "value": 13,
+    "w": "Sungei Bedok | DT | 37",
+  },
+  Object {
+    "v": "Tai Seng | CC | 11",
+    "value": 13,
+    "w": "Tai Seng | CE | 11",
+  },
+  Object {
+    "v": "Tai Seng | CE | 11",
+    "value": 13,
+    "w": "Tai Seng | CC | 11",
+  },
+  Object {
+    "v": "Tampines | EW | 2",
+    "value": 13,
+    "w": "Tampines | DT | 32",
+  },
+  Object {
+    "v": "Tampines | DT | 32",
+    "value": 13,
+    "w": "Tampines | EW | 2",
+  },
+  Object {
+    "v": "Tanah Merah | EW | 4",
+    "value": 13,
+    "w": "Tanah Merah | CG | 0",
+  },
+  Object {
+    "v": "Tanah Merah | CG | 0",
+    "value": 13,
+    "w": "Tanah Merah | EW | 4",
+  },
+  Object {
+    "v": "Telok Blangah | CC | 28",
+    "value": 13,
+    "w": "Telok Blangah | CE | 28",
+  },
+  Object {
+    "v": "Telok Blangah | CE | 28",
+    "value": 13,
+    "w": "Telok Blangah | CC | 28",
+  },
+  Object {
+    "v": "Woodlands | NS | 9",
+    "value": 13,
+    "w": "Woodlands | TE | 2",
+  },
+  Object {
+    "v": "Woodlands | TE | 2",
+    "value": 13,
+    "w": "Woodlands | NS | 9",
+  },
+]
+`;
+
+exports[`useGraph works: graph.nodes 1`] = `
+Array [
+  Object {
+    "v": "Jurong East | NS | 1",
+  },
+  Object {
+    "v": "Bukit Batok | NS | 2",
+  },
+  Object {
+    "v": "Bukit Gombak | NS | 3",
+  },
+  Object {
+    "v": "Choa Chu Kang | NS | 4",
+  },
+  Object {
+    "v": "Yew Tee | NS | 5",
+  },
+  Object {
+    "v": "Kranji | NS | 7",
+  },
+  Object {
+    "v": "Marsiling | NS | 8",
+  },
+  Object {
+    "v": "Woodlands | NS | 9",
+  },
+  Object {
+    "v": "Admiralty | NS | 10",
+  },
+  Object {
+    "v": "Sembawang | NS | 11",
+  },
+  Object {
+    "v": "Canberra | NS | 12",
+  },
+  Object {
+    "v": "Yishun | NS | 13",
+  },
+  Object {
+    "v": "Khatib | NS | 14",
+  },
+  Object {
+    "v": "Yio Chu Kang | NS | 15",
+  },
+  Object {
+    "v": "Ang Mo Kio | NS | 16",
+  },
+  Object {
+    "v": "Bishan | NS | 17",
+  },
+  Object {
+    "v": "Braddell | NS | 18",
+  },
+  Object {
+    "v": "Toa Payoh | NS | 19",
+  },
+  Object {
+    "v": "Novena | NS | 20",
+  },
+  Object {
+    "v": "Newton | NS | 21",
+  },
+  Object {
+    "v": "Orchard | NS | 22",
+  },
+  Object {
+    "v": "Somerset | NS | 23",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NS | 24",
+  },
+  Object {
+    "v": "City Hall | NS | 25",
+  },
+  Object {
+    "v": "Raffles Place | NS | 26",
+  },
+  Object {
+    "v": "Marina Bay | NS | 27",
+  },
+  Object {
+    "v": "Marina South Pier | NS | 28",
+  },
+  Object {
+    "v": "Pasir Ris | EW | 1",
+  },
+  Object {
+    "v": "Tampines | EW | 2",
+  },
+  Object {
+    "v": "Simei | EW | 3",
+  },
+  Object {
+    "v": "Tanah Merah | EW | 4",
+  },
+  Object {
+    "v": "Bedok | EW | 5",
+  },
+  Object {
+    "v": "Kembangan | EW | 6",
+  },
+  Object {
+    "v": "Eunos | EW | 7",
+  },
+  Object {
+    "v": "Paya Lebar | EW | 8",
+  },
+  Object {
+    "v": "Aljunied | EW | 9",
+  },
+  Object {
+    "v": "Kallang | EW | 10",
+  },
+  Object {
+    "v": "Lavender | EW | 11",
+  },
+  Object {
+    "v": "Bugis | EW | 12",
+  },
+  Object {
+    "v": "City Hall | EW | 13",
+  },
+  Object {
+    "v": "Raffles Place | EW | 14",
+  },
+  Object {
+    "v": "Tanjong Pagar | EW | 15",
+  },
+  Object {
+    "v": "Outram Park | EW | 16",
+  },
+  Object {
+    "v": "Tiong Bahru | EW | 17",
+  },
+  Object {
+    "v": "Redhill | EW | 18",
+  },
+  Object {
+    "v": "Queenstown | EW | 19",
+  },
+  Object {
+    "v": "Commonwealth | EW | 20",
+  },
+  Object {
+    "v": "Buona Vista | EW | 21",
+  },
+  Object {
+    "v": "Dover | EW | 22",
+  },
+  Object {
+    "v": "Clementi | EW | 23",
+  },
+  Object {
+    "v": "Jurong East | EW | 24",
+  },
+  Object {
+    "v": "Chinese Garden | EW | 25",
+  },
+  Object {
+    "v": "Lakeside | EW | 26",
+  },
+  Object {
+    "v": "Boon Lay | EW | 27",
+  },
+  Object {
+    "v": "Pioneer | EW | 28",
+  },
+  Object {
+    "v": "Joo Koon | EW | 29",
+  },
+  Object {
+    "v": "Gul Circle | EW | 30",
+  },
+  Object {
+    "v": "Tuas Crescent | EW | 31",
+  },
+  Object {
+    "v": "Tuas West Road | EW | 32",
+  },
+  Object {
+    "v": "Tuas Link | EW | 33",
+  },
+  Object {
+    "v": "Choa Chu Kang | JS | 1",
+  },
+  Object {
+    "v": "Choa Chu Kang West | JS | 2",
+  },
+  Object {
+    "v": "Tengah | JS | 3",
+  },
+  Object {
+    "v": "Hong Kah | JS | 4",
+  },
+  Object {
+    "v": "Corporation | JS | 5",
+  },
+  Object {
+    "v": "Jurong West | JS | 6",
+  },
+  Object {
+    "v": "Bahar Junction | JS | 7",
+  },
+  Object {
+    "v": "Boon Lay | JS | 8",
+  },
+  Object {
+    "v": "Enterprise | JS | 9",
+  },
+  Object {
+    "v": "Tukang | JS | 10",
+  },
+  Object {
+    "v": "Jurong Hill | JS | 11",
+  },
+  Object {
+    "v": "Jurong Pier | JS | 12",
+  },
+  Object {
+    "v": "Sengkang | SE | 0",
+  },
+  Object {
+    "v": "Compassvale | SE | 1",
+  },
+  Object {
+    "v": "Rumbia | SE | 2",
+  },
+  Object {
+    "v": "Bakau | SE | 3",
+  },
+  Object {
+    "v": "Kangkar | SE | 4",
+  },
+  Object {
+    "v": "Ranggung | SE | 5",
+  },
+  Object {
+    "v": "Sengkang | SE | 6",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 1",
+  },
+  Object {
+    "v": "South View | BP | 2",
+  },
+  Object {
+    "v": "Keat Hong | BP | 3",
+  },
+  Object {
+    "v": "Teck Whye | BP | 4",
+  },
+  Object {
+    "v": "Phoenix | BP | 5",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 6",
+  },
+  Object {
+    "v": "Petir | BP | 7",
+  },
+  Object {
+    "v": "Pending | BP | 8",
+  },
+  Object {
+    "v": "Bangkit | BP | 9",
+  },
+  Object {
+    "v": "Fajar | BP | 10",
+  },
+  Object {
+    "v": "Segar | BP | 11",
+  },
+  Object {
+    "v": "Jelapang | BP | 12",
+  },
+  Object {
+    "v": "Senja | BP | 13",
+  },
+  Object {
+    "v": "Bukit Panjang | BP | 14",
+  },
+  Object {
+    "v": "Phoenix | BP | 15",
+  },
+  Object {
+    "v": "Teck Whye | BP | 16",
+  },
+  Object {
+    "v": "Keat Hong | BP | 17",
+  },
+  Object {
+    "v": "South View | BP | 18",
+  },
+  Object {
+    "v": "Choa Chu Kang | BP | 19",
+  },
+  Object {
+    "v": "Dhoby Ghaut | CC | 1",
+  },
+  Object {
+    "v": "Bras Basah | CC | 2",
+  },
+  Object {
+    "v": "Esplanade | CC | 3",
+  },
+  Object {
+    "v": "Promenade | CC | 4",
+  },
+  Object {
+    "v": "Nicoll Highway | CC | 5",
+  },
+  Object {
+    "v": "Stadium | CC | 6",
+  },
+  Object {
+    "v": "Mountbatten | CC | 7",
+  },
+  Object {
+    "v": "Dakota | CC | 8",
+  },
+  Object {
+    "v": "Paya Lebar | CC | 9",
+  },
+  Object {
+    "v": "MacPherson | CC | 10",
+  },
+  Object {
+    "v": "Tai Seng | CC | 11",
+  },
+  Object {
+    "v": "Bartley | CC | 12",
+  },
+  Object {
+    "v": "Serangoon | CC | 13",
+  },
+  Object {
+    "v": "Lorong Chuan | CC | 14",
+  },
+  Object {
+    "v": "Bishan | CC | 15",
+  },
+  Object {
+    "v": "Marymount | CC | 16",
+  },
+  Object {
+    "v": "Caldecott | CC | 17",
+  },
+  Object {
+    "v": "Botanic Gardens | CC | 19",
+  },
+  Object {
+    "v": "Farrer Road | CC | 20",
+  },
+  Object {
+    "v": "Holland Village | CC | 21",
+  },
+  Object {
+    "v": "Buona Vista | CC | 22",
+  },
+  Object {
+    "v": "one-north | CC | 23",
+  },
+  Object {
+    "v": "Kent Ridge | CC | 24",
+  },
+  Object {
+    "v": "Haw Par Villa | CC | 25",
+  },
+  Object {
+    "v": "Pasir Panjang | CC | 26",
+  },
+  Object {
+    "v": "Labrador Park | CC | 27",
+  },
+  Object {
+    "v": "Telok Blangah | CC | 28",
+  },
+  Object {
+    "v": "HarbourFront | CC | 29",
+  },
+  Object {
+    "v": "Keppel | CC | 30",
+  },
+  Object {
+    "v": "Cantonment | CC | 31",
+  },
+  Object {
+    "v": "Prince Edward Road | CC | 32",
+  },
+  Object {
+    "v": "Marina Bay | CC | 33",
+  },
+  Object {
+    "v": "Marina Bay | CE | 2",
+  },
+  Object {
+    "v": "Bayfront | CE | 3",
+  },
+  Object {
+    "v": "Promenade | CE | 4",
+  },
+  Object {
+    "v": "Nicoll Highway | CE | 5",
+  },
+  Object {
+    "v": "Stadium | CE | 6",
+  },
+  Object {
+    "v": "Mountbatten | CE | 7",
+  },
+  Object {
+    "v": "Dakota | CE | 8",
+  },
+  Object {
+    "v": "Paya Lebar | CE | 9",
+  },
+  Object {
+    "v": "MacPherson | CE | 10",
+  },
+  Object {
+    "v": "Tai Seng | CE | 11",
+  },
+  Object {
+    "v": "Bartley | CE | 12",
+  },
+  Object {
+    "v": "Serangoon | CE | 13",
+  },
+  Object {
+    "v": "Lorong Chuan | CE | 14",
+  },
+  Object {
+    "v": "Bishan | CE | 15",
+  },
+  Object {
+    "v": "Marymount | CE | 16",
+  },
+  Object {
+    "v": "Caldecott | CE | 17",
+  },
+  Object {
+    "v": "Botanic Gardens | CE | 19",
+  },
+  Object {
+    "v": "Farrer Road | CE | 20",
+  },
+  Object {
+    "v": "Holland Village | CE | 21",
+  },
+  Object {
+    "v": "Buona Vista | CE | 22",
+  },
+  Object {
+    "v": "one-north | CE | 23",
+  },
+  Object {
+    "v": "Kent Ridge | CE | 24",
+  },
+  Object {
+    "v": "Haw Par Villa | CE | 25",
+  },
+  Object {
+    "v": "Pasir Panjang | CE | 26",
+  },
+  Object {
+    "v": "Labrador Park | CE | 27",
+  },
+  Object {
+    "v": "Telok Blangah | CE | 28",
+  },
+  Object {
+    "v": "HarbourFront | CE | 29",
+  },
+  Object {
+    "v": "Keppel | CE | 30",
+  },
+  Object {
+    "v": "Cantonment | CE | 31",
+  },
+  Object {
+    "v": "Prince Edward Road | CE | 32",
+  },
+  Object {
+    "v": "Marina Bay | CE | 33",
+  },
+  Object {
+    "v": "Bukit Panjang | DT | 1",
+  },
+  Object {
+    "v": "Cashew | DT | 2",
+  },
+  Object {
+    "v": "Hillview | DT | 3",
+  },
+  Object {
+    "v": "Beauty World | DT | 5",
+  },
+  Object {
+    "v": "King Albert Park | DT | 6",
+  },
+  Object {
+    "v": "Sixth Avenue | DT | 7",
+  },
+  Object {
+    "v": "Tan Kah Kee | DT | 8",
+  },
+  Object {
+    "v": "Botanic Gardens | DT | 9",
+  },
+  Object {
+    "v": "Stevens | DT | 10",
+  },
+  Object {
+    "v": "Newton | DT | 11",
+  },
+  Object {
+    "v": "Little India | DT | 12",
+  },
+  Object {
+    "v": "Rochor | DT | 13",
+  },
+  Object {
+    "v": "Bugis | DT | 14",
+  },
+  Object {
+    "v": "Promenade | DT | 15",
+  },
+  Object {
+    "v": "Bayfront | DT | 16",
+  },
+  Object {
+    "v": "Downtown | DT | 17",
+  },
+  Object {
+    "v": "Telok Ayer | DT | 18",
+  },
+  Object {
+    "v": "Chinatown | DT | 19",
+  },
+  Object {
+    "v": "Fort Canning | DT | 20",
+  },
+  Object {
+    "v": "Bencoolen | DT | 21",
+  },
+  Object {
+    "v": "Jalan Besar | DT | 22",
+  },
+  Object {
+    "v": "Bendemeer | DT | 23",
+  },
+  Object {
+    "v": "Geylang Bahru | DT | 24",
+  },
+  Object {
+    "v": "Mattar | DT | 25",
+  },
+  Object {
+    "v": "MacPherson | DT | 26",
+  },
+  Object {
+    "v": "Ubi | DT | 27",
+  },
+  Object {
+    "v": "Kaki Bukit | DT | 28",
+  },
+  Object {
+    "v": "Bedok North | DT | 29",
+  },
+  Object {
+    "v": "Bedok Reservoir | DT | 30",
+  },
+  Object {
+    "v": "Tampines West | DT | 31",
+  },
+  Object {
+    "v": "Tampines | DT | 32",
+  },
+  Object {
+    "v": "Tampines East | DT | 33",
+  },
+  Object {
+    "v": "Upper Changi | DT | 34",
+  },
+  Object {
+    "v": "Expo | DT | 35",
+  },
+  Object {
+    "v": "Xilin | DT | 36",
+  },
+  Object {
+    "v": "Sungei Bedok | DT | 37",
+  },
+  Object {
+    "v": "Woodlands North | TE | 1",
+  },
+  Object {
+    "v": "Woodlands | TE | 2",
+  },
+  Object {
+    "v": "Woodlands South | TE | 3",
+  },
+  Object {
+    "v": "Springleaf | TE | 4",
+  },
+  Object {
+    "v": "Lentor | TE | 5",
+  },
+  Object {
+    "v": "Mayflower | TE | 6",
+  },
+  Object {
+    "v": "Bright Hill | TE | 7",
+  },
+  Object {
+    "v": "Upper Thomson | TE | 8",
+  },
+  Object {
+    "v": "Caldecott | TE | 9",
+  },
+  Object {
+    "v": "Mount Pleasant | TE | 10",
+  },
+  Object {
+    "v": "Stevens | TE | 11",
+  },
+  Object {
+    "v": "Napier | TE | 12",
+  },
+  Object {
+    "v": "Orchard Boulevard | TE | 13",
+  },
+  Object {
+    "v": "Orchard | TE | 14",
+  },
+  Object {
+    "v": "Great World | TE | 15",
+  },
+  Object {
+    "v": "Havelock | TE | 16",
+  },
+  Object {
+    "v": "Outram Park | TE | 17",
+  },
+  Object {
+    "v": "Maxwell | TE | 18",
+  },
+  Object {
+    "v": "Shenton Way | TE | 19",
+  },
+  Object {
+    "v": "Marina Bay | TE | 20",
+  },
+  Object {
+    "v": "Marina South | TE | 21",
+  },
+  Object {
+    "v": "Gardens by the Bay | TE | 22",
+  },
+  Object {
+    "v": "Tanjong Rhu | TE | 23",
+  },
+  Object {
+    "v": "Katong Park | TE | 24",
+  },
+  Object {
+    "v": "Tanjong Katong | TE | 25",
+  },
+  Object {
+    "v": "Marine Parade | TE | 26",
+  },
+  Object {
+    "v": "Marine Terrace | TE | 27",
+  },
+  Object {
+    "v": "Siglap | TE | 28",
+  },
+  Object {
+    "v": "Bayshore | TE | 29",
+  },
+  Object {
+    "v": "Bedok South | TE | 30",
+  },
+  Object {
+    "v": "Sungei Bedok | TE | 31",
+  },
+  Object {
+    "v": "HarbourFront | NE | 1",
+  },
+  Object {
+    "v": "Outram Park | NE | 3",
+  },
+  Object {
+    "v": "Chinatown | NE | 4",
+  },
+  Object {
+    "v": "Clarke Quay | NE | 5",
+  },
+  Object {
+    "v": "Dhoby Ghaut | NE | 6",
+  },
+  Object {
+    "v": "Little India | NE | 7",
+  },
+  Object {
+    "v": "Farrer Park | NE | 8",
+  },
+  Object {
+    "v": "Boon Keng | NE | 9",
+  },
+  Object {
+    "v": "Potong Pasir | NE | 10",
+  },
+  Object {
+    "v": "Woodleigh | NE | 11",
+  },
+  Object {
+    "v": "Serangoon | NE | 12",
+  },
+  Object {
+    "v": "Kovan | NE | 13",
+  },
+  Object {
+    "v": "Hougang | NE | 14",
+  },
+  Object {
+    "v": "Buangkok | NE | 15",
+  },
+  Object {
+    "v": "Sengkang | NE | 16",
+  },
+  Object {
+    "v": "Punggol | NE | 17",
+  },
+  Object {
+    "v": "Punggol Coast | NE | 18",
+  },
+  Object {
+    "v": "Tengah Plantation | JE | 1",
+  },
+  Object {
+    "v": "Tengah Park | JE | 2",
+  },
+  Object {
+    "v": "Bukit Batok West | JE | 3",
+  },
+  Object {
+    "v": "Toh Guan | JE | 4",
+  },
+  Object {
+    "v": "Jurong East | JE | 5",
+  },
+  Object {
+    "v": "Jurong Town Hall | JE | 6",
+  },
+  Object {
+    "v": "Pandan Reservoir | JE | 7",
+  },
+  Object {
+    "v": "Tanah Merah | CG | 0",
+  },
+  Object {
+    "v": "Expo | CG | 1",
+  },
+  Object {
+    "v": "Changi Airport | CG | 2",
+  },
+  Object {
+    "v": "Sengkang | SW | 0",
+  },
+  Object {
+    "v": "Cheng Lim | SW | 1",
+  },
+  Object {
+    "v": "Farmway | SW | 2",
+  },
+  Object {
+    "v": "Kupang | SW | 3",
+  },
+  Object {
+    "v": "Thanggam | SW | 4",
+  },
+  Object {
+    "v": "Fernvale | SW | 5",
+  },
+  Object {
+    "v": "Layar | SW | 6",
+  },
+  Object {
+    "v": "Tongkang | SW | 7",
+  },
+  Object {
+    "v": "Renjong | SW | 8",
+  },
+  Object {
+    "v": "Sengkang | SW | 9",
+  },
+  Object {
+    "v": "Punggol | PE | 0",
+  },
+  Object {
+    "v": "Cove | PE | 1",
+  },
+  Object {
+    "v": "Meridian | PE | 2",
+  },
+  Object {
+    "v": "Coral Edge | PE | 3",
+  },
+  Object {
+    "v": "Riviera | PE | 4",
+  },
+  Object {
+    "v": "Kadaloor | PE | 5",
+  },
+  Object {
+    "v": "Oasis | PE | 6",
+  },
+  Object {
+    "v": "Damai | PE | 7",
+  },
+  Object {
+    "v": "Punggol | PE | 8",
+  },
+  Object {
+    "v": "Gek Poh | JW | 1",
+  },
+  Object {
+    "v": "Tawas | JW | 2",
+  },
+  Object {
+    "v": "Nanyang Gateway | JW | 3",
+  },
+  Object {
+    "v": "Nanyang Crescent | JW | 4",
+  },
+  Object {
+    "v": "Peng Kang Hill | JW | 5",
+  },
+  Object {
+    "v": "Punggol | PW | 0",
+  },
+  Object {
+    "v": "Sam Kee | PW | 1",
+  },
+  Object {
+    "v": "Teck Lee | PW | 2",
+  },
+  Object {
+    "v": "Punggol Point | PW | 3",
+  },
+  Object {
+    "v": "Samudera | PW | 4",
+  },
+  Object {
+    "v": "Nibong | PW | 5",
+  },
+  Object {
+    "v": "Sumang | PW | 6",
+  },
+  Object {
+    "v": "Soo Teck | PW | 7",
+  },
+  Object {
+    "v": "Punggol | PW | 8",
+  },
+]
+`;
+
+exports[`useRoutes works 1`] = `
+Array [
+  Object {
+    "cost": 51,
+    "key": "d504db4",
+    "path": Array [
+      Object {
+        "index": "10",
+        "line": "NS",
+        "station": "Admiralty",
+        "type": "start",
+      },
+      Object {
+        "index": "11",
+        "line": "NS",
+        "station": "Sembawang",
+        "type": "normal",
+      },
+      Object {
+        "index": "12",
+        "line": "NS",
+        "station": "Canberra",
+        "type": "normal",
+      },
+      Object {
+        "index": "13",
+        "line": "NS",
+        "station": "Yishun",
+        "type": "normal",
+      },
+      Object {
+        "index": "14",
+        "line": "NS",
+        "station": "Khatib",
+        "type": "normal",
+      },
+      Object {
+        "index": "15",
+        "line": "NS",
+        "station": "Yio Chu Kang",
+        "type": "normal",
+      },
+      Object {
+        "index": "16",
+        "line": "NS",
+        "station": "Ang Mo Kio",
+        "type": "normal",
+      },
+      Object {
+        "index": "17",
+        "line": "NS",
+        "station": "Bishan",
+        "type": "normal",
+      },
+      Object {
+        "index": "18",
+        "line": "NS",
+        "station": "Braddell",
+        "type": "normal",
+      },
+      Object {
+        "index": "19",
+        "line": "NS",
+        "station": "Toa Payoh",
+        "type": "normal",
+      },
+      Object {
+        "index": "20",
+        "line": "NS",
+        "station": "Novena",
+        "type": "normal",
+      },
+      Object {
+        "index": "21",
+        "line": "NS",
+        "station": "Newton",
+        "type": "normal",
+      },
+      Object {
+        "index": "22",
+        "line": "NS",
+        "station": "Orchard",
+        "type": "normal",
+      },
+      Object {
+        "index": "23",
+        "line": "NS",
+        "station": "Somerset",
+        "type": "normal",
+      },
+      Object {
+        "index": "24",
+        "line": "NS",
+        "station": "Dhoby Ghaut",
+        "type": "normal",
+      },
+      Object {
+        "index": "25",
+        "line": "NS",
+        "station": "City Hall",
+        "type": "interchange1",
+      },
+      Object {
+        "index": "13",
+        "line": "EW",
+        "station": "City Hall",
+        "type": "interchange2",
+      },
+      Object {
+        "index": "12",
+        "line": "EW",
+        "station": "Bugis",
+        "type": "normal",
+      },
+      Object {
+        "index": "11",
+        "line": "EW",
+        "station": "Lavender",
+        "type": "normal",
+      },
+      Object {
+        "index": "10",
+        "line": "EW",
+        "station": "Kallang",
+        "type": "normal",
+      },
+      Object {
+        "index": "9",
+        "line": "EW",
+        "station": "Aljunied",
+        "type": "end",
+      },
+    ],
+  },
+  Object {
+    "cost": 54,
+    "key": "4258191",
+    "path": Array [
+      Object {
+        "index": "10",
+        "line": "NS",
+        "station": "Admiralty",
+        "type": "start",
+      },
+      Object {
+        "index": "11",
+        "line": "NS",
+        "station": "Sembawang",
+        "type": "normal",
+      },
+      Object {
+        "index": "12",
+        "line": "NS",
+        "station": "Canberra",
+        "type": "normal",
+      },
+      Object {
+        "index": "13",
+        "line": "NS",
+        "station": "Yishun",
+        "type": "normal",
+      },
+      Object {
+        "index": "14",
+        "line": "NS",
+        "station": "Khatib",
+        "type": "normal",
+      },
+      Object {
+        "index": "15",
+        "line": "NS",
+        "station": "Yio Chu Kang",
+        "type": "normal",
+      },
+      Object {
+        "index": "16",
+        "line": "NS",
+        "station": "Ang Mo Kio",
+        "type": "normal",
+      },
+      Object {
+        "index": "17",
+        "line": "NS",
+        "station": "Bishan",
+        "type": "interchange1",
+      },
+      Object {
+        "index": "15",
+        "line": "CE",
+        "station": "Bishan",
+        "type": "interchange2",
+      },
+      Object {
+        "index": "14",
+        "line": "CE",
+        "station": "Lorong Chuan",
+        "type": "normal",
+      },
+      Object {
+        "index": "13",
+        "line": "CE",
+        "station": "Serangoon",
+        "type": "normal",
+      },
+      Object {
+        "index": "12",
+        "line": "CE",
+        "station": "Bartley",
+        "type": "normal",
+      },
+      Object {
+        "index": "11",
+        "line": "CE",
+        "station": "Tai Seng",
+        "type": "normal",
+      },
+      Object {
+        "index": "10",
+        "line": "CE",
+        "station": "MacPherson",
+        "type": "normal",
+      },
+      Object {
+        "index": "9",
+        "line": "CE",
+        "station": "Paya Lebar",
+        "type": "interchange1",
+      },
+      Object {
+        "index": "8",
+        "line": "EW",
+        "station": "Paya Lebar",
+        "type": "interchange2",
+      },
+      Object {
+        "index": "9",
+        "line": "EW",
+        "station": "Aljunied",
+        "type": "end",
+      },
+    ],
+  },
+  Object {
+    "cost": 55,
+    "key": "85d392a",
+    "path": Array [
+      Object {
+        "index": "10",
+        "line": "NS",
+        "station": "Admiralty",
+        "type": "start",
+      },
+      Object {
+        "index": "11",
+        "line": "NS",
+        "station": "Sembawang",
+        "type": "normal",
+      },
+      Object {
+        "index": "12",
+        "line": "NS",
+        "station": "Canberra",
+        "type": "normal",
+      },
+      Object {
+        "index": "13",
+        "line": "NS",
+        "station": "Yishun",
+        "type": "normal",
+      },
+      Object {
+        "index": "14",
+        "line": "NS",
+        "station": "Khatib",
+        "type": "normal",
+      },
+      Object {
+        "index": "15",
+        "line": "NS",
+        "station": "Yio Chu Kang",
+        "type": "normal",
+      },
+      Object {
+        "index": "16",
+        "line": "NS",
+        "station": "Ang Mo Kio",
+        "type": "normal",
+      },
+      Object {
+        "index": "17",
+        "line": "NS",
+        "station": "Bishan",
+        "type": "normal",
+      },
+      Object {
+        "index": "18",
+        "line": "NS",
+        "station": "Braddell",
+        "type": "normal",
+      },
+      Object {
+        "index": "19",
+        "line": "NS",
+        "station": "Toa Payoh",
+        "type": "normal",
+      },
+      Object {
+        "index": "20",
+        "line": "NS",
+        "station": "Novena",
+        "type": "normal",
+      },
+      Object {
+        "index": "21",
+        "line": "NS",
+        "station": "Newton",
+        "type": "normal",
+      },
+      Object {
+        "index": "22",
+        "line": "NS",
+        "station": "Orchard",
+        "type": "normal",
+      },
+      Object {
+        "index": "23",
+        "line": "NS",
+        "station": "Somerset",
+        "type": "normal",
+      },
+      Object {
+        "index": "24",
+        "line": "NS",
+        "station": "Dhoby Ghaut",
+        "type": "normal",
+      },
+      Object {
+        "index": "25",
+        "line": "NS",
+        "station": "City Hall",
+        "type": "normal",
+      },
+      Object {
+        "index": "26",
+        "line": "NS",
+        "station": "Raffles Place",
+        "type": "interchange1",
+      },
+      Object {
+        "index": "14",
+        "line": "EW",
+        "station": "Raffles Place",
+        "type": "interchange2",
+      },
+      Object {
+        "index": "13",
+        "line": "EW",
+        "station": "City Hall",
+        "type": "normal",
+      },
+      Object {
+        "index": "12",
+        "line": "EW",
+        "station": "Bugis",
+        "type": "normal",
+      },
+      Object {
+        "index": "11",
+        "line": "EW",
+        "station": "Lavender",
+        "type": "normal",
+      },
+      Object {
+        "index": "10",
+        "line": "EW",
+        "station": "Kallang",
+        "type": "normal",
+      },
+      Object {
+        "index": "9",
+        "line": "EW",
+        "station": "Aljunied",
+        "type": "end",
+      },
+    ],
+  },
+  Object {
+    "cost": 59,
+    "key": "a7fcacb",
+    "path": Array [
+      Object {
+        "index": "10",
+        "line": "NS",
+        "station": "Admiralty",
+        "type": "start",
+      },
+      Object {
+        "index": "9",
+        "line": "NS",
+        "station": "Woodlands",
+        "type": "normal",
+      },
+      Object {
+        "index": "8",
+        "line": "NS",
+        "station": "Marsiling",
+        "type": "normal",
+      },
+      Object {
+        "index": "7",
+        "line": "NS",
+        "station": "Kranji",
+        "type": "normal",
+      },
+      Object {
+        "index": "5",
+        "line": "NS",
+        "station": "Yew Tee",
+        "type": "normal",
+      },
+      Object {
+        "index": "4",
+        "line": "NS",
+        "station": "Choa Chu Kang",
+        "type": "normal",
+      },
+      Object {
+        "index": "3",
+        "line": "NS",
+        "station": "Bukit Gombak",
+        "type": "normal",
+      },
+      Object {
+        "index": "2",
+        "line": "NS",
+        "station": "Bukit Batok",
+        "type": "normal",
+      },
+      Object {
+        "index": "1",
+        "line": "NS",
+        "station": "Jurong East",
+        "type": "interchange1",
+      },
+      Object {
+        "index": "24",
+        "line": "EW",
+        "station": "Jurong East",
+        "type": "interchange2",
+      },
+      Object {
+        "index": "23",
+        "line": "EW",
+        "station": "Clementi",
+        "type": "normal",
+      },
+      Object {
+        "index": "22",
+        "line": "EW",
+        "station": "Dover",
+        "type": "normal",
+      },
+      Object {
+        "index": "21",
+        "line": "EW",
+        "station": "Buona Vista",
+        "type": "normal",
+      },
+      Object {
+        "index": "20",
+        "line": "EW",
+        "station": "Commonwealth",
+        "type": "normal",
+      },
+      Object {
+        "index": "19",
+        "line": "EW",
+        "station": "Queenstown",
+        "type": "normal",
+      },
+      Object {
+        "index": "18",
+        "line": "EW",
+        "station": "Redhill",
+        "type": "normal",
+      },
+      Object {
+        "index": "17",
+        "line": "EW",
+        "station": "Tiong Bahru",
+        "type": "normal",
+      },
+      Object {
+        "index": "16",
+        "line": "EW",
+        "station": "Outram Park",
+        "type": "normal",
+      },
+      Object {
+        "index": "15",
+        "line": "EW",
+        "station": "Tanjong Pagar",
+        "type": "normal",
+      },
+      Object {
+        "index": "14",
+        "line": "EW",
+        "station": "Raffles Place",
+        "type": "normal",
+      },
+      Object {
+        "index": "13",
+        "line": "EW",
+        "station": "City Hall",
+        "type": "normal",
+      },
+      Object {
+        "index": "12",
+        "line": "EW",
+        "station": "Bugis",
+        "type": "normal",
+      },
+      Object {
+        "index": "11",
+        "line": "EW",
+        "station": "Lavender",
+        "type": "normal",
+      },
+      Object {
+        "index": "10",
+        "line": "EW",
+        "station": "Kallang",
+        "type": "normal",
+      },
+      Object {
+        "index": "9",
+        "line": "EW",
+        "station": "Aljunied",
+        "type": "end",
+      },
+    ],
+  },
+]
+`;

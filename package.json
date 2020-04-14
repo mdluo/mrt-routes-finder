@@ -3,27 +3,71 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco -r @cypress/instrument-cra start",
+    "build": "craco build",
+    "test": "craco test",
+    "test:debug": "node --inspect-brk node_modules/@craco/craco/scripts/test.js --runInBand",
+    "eject": "react-scripts eject",
+    "cover:jest": "CI=true yarn test --coverage",
+    "cover:cypress": "cypress run",
+    "precover:merge": "cp coverage/coverage-final.json .nyc_output",
+    "cover:merge": "nyc merge .nyc_output coverage/coverage.json",
+    "cover:report": "nyc report --reporter=lcov --reporter=text-summary",
+    "cover": "yarn cover:merge && yarn cover:report && open coverage/lcov-report/index.html"
+  },
+  "nyc": {
+    "all": true,
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "include": [
+      "src/**"
+    ],
+    "reporter": []
   },
   "dependencies": {
+    "@blueprintjs/core": "^3.24.0",
+    "@blueprintjs/select": "^3.12.0",
+    "@craco/craco": "^5.6.4",
+    "@cypress/code-coverage": "^1.14.0",
+    "@cypress/instrument-cra": "^1.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
+    "@testing-library/react-hooks": "^3.2.1",
     "@testing-library/user-event": "^7.1.2",
+    "@types/classnames": "^2.2.10",
+    "@types/crypto-js": "^3.1.44",
+    "@types/google-map-react": "^1.1.5",
+    "@types/googlemaps": "^3.39.3",
+    "@types/graphlib": "^2.1.5",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "classnames": "^2.2.6",
+    "comlink": "^4.2.0",
+    "crypto-js": "^4.0.0",
+    "google-map-react": "^1.1.7",
+    "graphlib": "^2.1.8",
+    "k-shortest-path": "^0.0.5",
+    "node-sass": "^4.13.1",
+    "nyc": "^15.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
+    "react-test-renderer": "^16.13.1",
+    "typescript": "~3.7.2",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpackbar": "^4.0.0",
+    "worker-loader": "^2.0.0"
   },
   "devDependencies": {
+    "cypress": "^3.8.3",
     "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-cypress": "^2.10.3",
     "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^2.0.2"
+    "got": "^10.7.0",
+    "prettier": "^2.0.4"
   }
 }

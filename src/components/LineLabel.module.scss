@@ -1,0 +1,11 @@
+.line {
+  padding: 0.1rem 0.6rem;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  vertical-align: middle;
+
+  &.small {
+    padding: 0 0.4rem;
+  }
+}

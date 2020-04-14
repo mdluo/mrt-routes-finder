@@ -125,3 +125,12 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.vscode
+/tmp
+
+.now
+now.json
+
+cypress/screenshots
+cypress/videos

@@ -1,0 +1,26 @@
+.route {
+  padding: 1rem 1.2rem !important;
+
+  &:global(.active) {
+    border-left: 6px solid #2B95D6;
+  }
+}
+
+.duration {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.lines {
+  margin: 0.6rem 0;
+}
+
+.divider {
+  vertical-align: middle !important;
+}
+
+.details {
+  font-weight: 500;
+  color: #137CBD;
+}

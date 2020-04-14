@@ -1,0 +1,13 @@
+.routes {
+  flex: 1;
+  overflow-y: auto;
+
+  .table {
+    width: 100%;
+    border-bottom: 1px solid rgba(16, 22, 26, 0.15);
+  }
+
+  .spinner {
+    margin: 1rem;
+  }
+}

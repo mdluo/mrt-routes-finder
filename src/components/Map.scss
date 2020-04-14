@@ -1,0 +1,36 @@
+div.overlay-text {
+  min-width: 8rem;
+  padding-top: 0.5rem;
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  z-index: 1000;
+
+  & > span {
+    position: absolute;
+    top: -0.5rem;
+    left: 0.5rem;
+  }
+
+  &::before {
+    content: ' ';
+    padding: 4px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #202B33;
+    position: absolute;
+    left: -6px;
+    top: -6px;
+  }
+
+  &.interchange2 {
+    font-size: 0.8rem;
+
+    &::before {
+      padding: 3px;
+      left: -5px;
+      top: -5px;
+    }
+  }
+}
